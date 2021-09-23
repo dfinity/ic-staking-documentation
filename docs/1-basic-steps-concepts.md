@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Basic Steps and Concepts
+title: 1. Basic Steps and Concepts
 permalink: /basic-steps-concepts/
 ---
 
