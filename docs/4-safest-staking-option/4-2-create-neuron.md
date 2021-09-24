@@ -8,9 +8,9 @@ parent: 4. Safest staking option
 
 *This step would only happen once 1️⃣ per neuron.*
 
-This section assumess you succesffully installed the [the QR tools on your **air-gapped computer.**](../docs/safest-staking-option/4-0-tool-setup).
+This section assumess you succesffully installed the the QR tools on your **air-gapped computer** from 4.0.
 
-In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**,  but we will use a **smartphone** QR code scanner to send the messages *from* **the air-gapped computer** t*o the* Internet Computer.
+In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**, but we will use a **networked smartphone**'s QR code scanner to send the messages *from* **the air-gapped computer** *to the* Internet Computer.
 
 ![image](../assets/images/qr-code-scan.png)
 
@@ -19,7 +19,7 @@ In this section, we need to "bridge the air gap." This means that we will contin
 
 **Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
-You will use **`quill**neuron-stake` command of the *form*:
+You will use `quill`'s  `neuron-stake` command of the form:
 
 ```jsx
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
