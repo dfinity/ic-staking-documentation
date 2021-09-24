@@ -2,7 +2,7 @@
 layout: page
 title: 2. Tool options
 nav_order: 3
-permalink: /tools/
+permalink: /2-tools/
 ---
 
 # 2. Tool options
