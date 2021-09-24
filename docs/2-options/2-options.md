@@ -20,7 +20,7 @@ To stake, you have many options, each with different security and usability trad
 
 This chapter summarizes your options from **easiest** to **safest**.
 
-## 1. Easiest Option
+## Easiest Option
 
  Use [Internet Identity](https://medium.com/dfinity/internet-identity-the-end-of-usernames-and-passwords-ff45e4861bf7) with the [NNS frontend dapp](https://nns.ic0.app/)
 
@@ -32,7 +32,7 @@ This chapter summarizes your options from **easiest** to **safest**.
 
 If you choose this, go to [Chapter 3: Easiest staking option](../3-easiest-staking-option/3-easiest-staking-option.md)
 
-## 2. Safest Option
+## Safest Option
 
 Use your `seed phrase` directly with a few options for self-custody tools.
 

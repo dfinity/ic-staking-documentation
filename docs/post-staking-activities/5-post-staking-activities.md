@@ -89,7 +89,7 @@ $ bash ./quill-qr.sh < message.json
 Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
 ![image](../assets/images/qr-code-scan.png)
-s
+
 This command will display the neuron id of the newly created reward neuron. It will have a dissolve delay set to 7 days and be in a non-dissolving state, so you will need to use the `neuron-manage --start-dissolving` command above to begin dissolving that new neuron. In seven days you can then disburse it and the ICP will be transferred into the original controlling account.
 
 ### 5.2.2 Reward harvesting
