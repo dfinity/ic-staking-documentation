@@ -8,16 +8,12 @@ parent: 4. Safest staking option
 
 *This step would only happen once 1️⃣ per neuron.*
 
+This section assumess you succesffully installed the [the QR tools on your **air-gapped computer.**](../docs/safest-staking-option/4-0-tool-setup).
+
 In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**,  but we will use a **smartphone** QR code scanner to send the messages *from* **the air-gapped computer** t*o the* Internet Computer.
 
 ![image](../assets/images/qr-code-scan.png)
 
-To QR encode your message, you should install `qrencode` (or similar) on your **air-gapped computer.** 
-
-Installation steps:
-
-- OSX: [https://formulae.brew.sh/formula/qrencode](https://formulae.brew.sh/formula/qrencode)
-- Debian package on Ubuntu: TB
 
 ### 4.2.1 Generate a signed message to "create a neuron" using `Quill`
 
