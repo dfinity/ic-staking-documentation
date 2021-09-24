@@ -16,7 +16,7 @@ Once you have `Keysmith` and `Quill` installed **air-gapped computer** ready, yo
 Inside the **air-gapped computer**:
 
 ```bash
-$ **keysmith** generate -o seed.txt
+$ keysmith generate -o seed.txt
 ```
 
 ### 1.2 Use `Keysmith` to create a private key and store it in “*private.pem*” file
@@ -24,7 +24,7 @@ $ **keysmith** generate -o seed.txt
 Inside the **air-gapped computer**:
 
 ```bash
-$ **keysmith** private-key -o private.pem
+$ keysmith private-key -o private.pem
 ```
 
 ### 1.3 Use `Keysmith` to display a `ledger account number`
@@ -34,7 +34,7 @@ This command will display a long string which is your `ledger account number`. B
 Inside the **air-gapped computer**:
 
 ```bash
-$ **keysmith** account
+$ keysmith account
 > 77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da 
 ```
 
@@ -53,7 +53,7 @@ To properly store your `seed phrase` see the section linked earlier in the docum
     1. Paper
     2. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
 
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd62bd08-e247-4af0-8eb7-9b71ed38c6f4/Untitled.png)
+        ![image](../assets/images/billfodl.png)
 
 ***NOTE: Do not go to step 1.5 until you properly store it.***
 
@@ -77,4 +77,10 @@ In this section, we did a few things, so let’s recap what we did and where we 
 
 **If you do not end up with a table that looks like the one below, do not continu**e. Try again, check out support, or submit a question to support.
 
-[Outcome ](https://www.notion.so/efe231498a264f918449a497a312714d)
+| Artifact | Example | Security| Final outcome|
+| ------------- | ------------- |
+| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via Keysmith in this section in 1.2.  <br />• You will have properly stored in 1.1<br />• You deleted this from your computer in 1.5|
+| `private key` | ``| • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via Keysmith in this section in 1.2. |
+| `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 1.3. This can be stored anywhere.
+
+
