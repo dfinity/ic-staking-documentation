@@ -1,27 +1,27 @@
 # ic-staking-documentation
 
-This is a Github page for creating documentation for easy user-facing staking within the Internet Computer. This is intended to be a community-driven set of documents.
+This is a GitHub page for creating documentation for easy user-facing staking within the Internet Computer. This is intended to be a community-driven set of documents.
 
-You can see the Github page here: https://probable-goggles-3dc3d635.pages.github.io/
+You can see the GitHub page here: https://probable-goggles-3dc3d635.pages.github.io/
 
 ## How to contribute
 
-The github page is composed of pages in the /docs directory. Editing the copy is very easy.
+The GitHub page is composed of pages in the `/docs` directory. Editing the copy is very easy.
 
 ## How to run this locally
 
-To run this locally, you should follow the instructions at [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+To run this locally, you should follow the instructions at [Testing your GitHub Pages site locally with Jekyll](https://docs.GitHub.com/en/pages/setting-up-a-GitHub-pages-site-with-jekyll/testing-your-GitHub-pages-site-locally-with-jekyll).
 
 ## How to deploy changes
 
-The Github page is tied to the branch `gh-pagess`. Anything that is merged to `gh-pages` branch automatically becomes deploys to the Github page.
+The GitHub page is tied to the branch `gh-pagess`. Anything that is merged to `gh-pages` branch automatically becomes deploys to the GitHub page.
 
 ## How to edit the styling
 
-The current theme is the `Just the docs` Jekyll theme.
+The current theme is the "Just the Docs" Jekyll theme.
 
-* Documentation for Just the Docs: https://pmarsceill.github.io/just-the-docs/
-* Github page for Just The Docs: https://github.com/pmarsceill/just-the-docs
+* Documentation for "Just the Docs": https://pmarsceill.github.io/just-the-docs/
+* GitHub page for "Just The Docs": https://github.com/pmarsceill/just-the-docs
 
 If you want to change the theme altogether, you need to do the following: 
 
