@@ -15,13 +15,13 @@ This chapter summarizes your options from **easiest** to **safest**.
 
 - **Use [Internet Identity](https://medium.com/dfinity/internet-identity-the-end-of-usernames-and-passwords-ff45e4861bf7) with the [NNS frontend dapp](https://nns.ic0.app/)**
 
-    *I**nternet Identity***                                                         
+    ***Internet Identity***                                                         
 
-    ![Screen Shot 2021-09-16 at 4.49.01 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62b73380-b2f2-411e-9814-96ca2ec73159/Screen_Shot_2021-09-16_at_4.49.01_PM.png)
+    ![image](../assets/images/ii.png)
 
     ***NNS Frontend Dapp***
 
-    ![Screen Shot 2021-09-16 at 4.47.56 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e78ad183-bae5-4840-a421-aaa36bdca1b0/Screen_Shot_2021-09-16_at_4.47.56_PM.png)
+    ![image](../assets/images/nns-frontend-dapp.png)
 
     **Traits**
 
@@ -74,11 +74,11 @@ This chapter summarizes your options from **easiest** to **safest**.
     1. **Air gapped** computer + **networked** phone
     2. *Coming Soon*: **[Ledger Nano](https://shop.ledger.com/products/ledger-nano-x) integration** 
 
-    ### **The Risks involved**
+    **The Risks involved**
 
     There are various artifacts that can be derived from your `seed phrase`.The diagram below explains which are derived and the risks from each artifact.
 
-    ![Screen Shot 2021-09-16 at 5.24.16 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70c37fe4-a9e8-493a-b2c8-a1d3a14b56c4/Screen_Shot_2021-09-16_at_5.24.16_PM.png)
+    ![image](../assets/images/seed-phrase-risks.png)
 
     **Red Boxes**
 
@@ -141,4 +141,4 @@ This chapter summarizes your options from **easiest** to **safest**.
                 2. Browser authenticated to [NNS FE Dapp](https://nns.ic0.app/#/auth) 
             2. **A Ledger Nano**
 
-            [https://www.youtube.com/watch?v=YefRR6O-xjg](https://www.youtube.com/watch?v=YefRR6O-xjg)
+            [![Ledger Nano](https://img.youtube.com/vi/=YefRR6O-xjg/0.jpg)](https://www.youtube.com/watch?v=YefRR6O-xjg)
