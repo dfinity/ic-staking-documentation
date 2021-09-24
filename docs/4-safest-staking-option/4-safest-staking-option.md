@@ -24,26 +24,20 @@ This chapter is for people who want to have as much control of their ICP as poss
 
 As a reminder, there are three basic steps (whose implementation depend on the technology you choose):
 
-### 1. Generate a **private key** 
+**1. Generate a **private key** 
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
-### 2. Create a **neuron** with a **dissolve delay** 
+**2. Create a **neuron** with a **dissolve delay** 
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
-### 3. *Optional*: Add more ICP to the Neuron (“top up the neuron”) 
+**3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)**
 
 *This step could happen many times 🔁 per neuron.*
 
 This chapter explains how to accomplish these steps given one self-ustodies their own `seed phrase`.
 
-## Tools necessary to stake for people who choose this option
-
-There are two basic options you can take if you choose this option:
-
-1. **Air gapped** computer + **networked** phone
-2. *Coming Soon*: **[Ledger Nano](https://shop.ledger.com/products/ledger-nano-x) integration** 
 
 ## The Risks involved
 
@@ -78,8 +72,8 @@ If someone gets these, they can see how ICP you have or your transactions
 
 Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
 
-1. Paper
-2. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
+a. Paper
+b. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
 
 ![image](../assets/images/billfodl.png)
 
