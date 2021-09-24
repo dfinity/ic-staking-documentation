@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: default
 title: 4. Safest staking option
-permalink: /safest-staking-option/
+nav_order: 3
+has_children: true
+permalink: docs/safest-staking-option
 ---
 
-
-# 4. SAFEST OPTION: How to stake
+# 4. Safest option: How to stake
 
 If you choose to stake with the **safest option**, this chapter is for you.
 

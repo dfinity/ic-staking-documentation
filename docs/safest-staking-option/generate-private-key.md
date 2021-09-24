@@ -1,0 +1,80 @@
+---
+layout: default
+title: 4.1 Generate private key
+parent: 4. Safest staking option
+---
+
+
+## 1. Generate a **private key**
+
+*This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
+
+Once you have `Keysmith` and `Quill` installed **air-gapped computer** ready, you are ready to start.
+
+### 1.1 Use `Keysmith` to generate a seed text
+
+Inside the **air-gapped computer**:
+
+```bash
+$ **keysmith** generate -o seed.txt
+```
+
+### 1.2 Use `Keysmith` to create a private key and store it in “*private.pem*” file
+
+Inside the **air-gapped computer**:
+
+```bash
+$ **keysmith** private-key -o private.pem
+```
+
+### 1.3 Use `Keysmith` to display a `ledger account number`
+
+This command will display a long string which is your `ledger account number`. Below, I provide an example of what this may look like.
+
+Inside the **air-gapped computer**:
+
+```bash
+$ **keysmith** account
+> 77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da 
+```
+
+You should write the `ledger account number` down.
+
+### 1.4 Secure your `seed phrase` properly
+
+Now that you have generated your `seed phrase` and your keys, you should write down the seed on paper or store it in some kind of steel wallet such as Bill Fodl.
+
+To properly store your `seed phrase` see the section linked earlier in the documentation:
+
+- 1. Where to store your `seed phrase`?
+
+    Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
+
+    1. Paper
+    2. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
+
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd62bd08-e247-4af0-8eb7-9b71ed38c6f4/Untitled.png)
+
+***NOTE: Do not go to step 1.5 until you properly store it.***
+
+DIEGO: **ADD NOTE ABOUT FIRST FOUR CHARACTERS IN SEED PHRASE**
+
+### 1.5 Remove your `seed phrase` from your air-gapped computer
+
+Now that the `seed phrase` is properly stored. You should delete it from your computer before moving forward so no one can use it to recreate your private key.  
+
+Remove it with the following command:
+
+Inside the **air-gapped computer**:
+
+```bash
+$ rm -vf seed.txt
+```
+
+### 1.6 Outcome
+
+In this section, we did a few things, so let’s recap what we did and where we should be before moving forward.
+
+**If you do not end up with a table that looks like the one below, do not continu**e. Try again, check out support, or submit a question to support.
+
+[Outcome ](https://www.notion.so/efe231498a264f918449a497a312714d)
