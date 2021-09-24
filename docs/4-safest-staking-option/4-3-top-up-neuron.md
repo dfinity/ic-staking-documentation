@@ -27,4 +27,4 @@ $ bash ./quill-qr.sh < message.json
 
 Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)

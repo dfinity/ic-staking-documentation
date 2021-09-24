@@ -35,7 +35,8 @@ Currently, voting is not possible with `Quill`.
 
         Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
-        ![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+        ![image](../assets/images/qr-code-scan.png)
+
 
     4. You can vote with that II via the NNS frontend dapp.
 
@@ -63,8 +64,8 @@ $ bash ./quill-qr.sh < message.json
 
 Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
-
+![image](../assets/images/qr-code-scan.png)
+s
 This command will display the neuron id of the newly created reward neuron. It will have a dissolve delay set to 7 days and be in a non-dissolving state, so you will need to use the `neuron-manage --start-dissolving` command above to begin dissolving that new neuron. In seven days you can then disburse it and the ICP will be transferred into the original controlling account.
 
 ### **2.2 Reward harvesting**
@@ -79,7 +80,8 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --spawn > message.json
 $ bash ./quill-qr.sh < message.json
 ```
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work.
@@ -91,7 +93,8 @@ $ bash ./quill-qr.sh < message.json
 
 ```
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+s
 
 ```bash
 
@@ -104,7 +107,8 @@ $ bash ./quill-qr.sh < message.json
 
 ```
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+
 
 **Note: The spawned neurons inherit your hotkeys**
 
@@ -123,7 +127,8 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --start-dissolving
 $ bash ./quill-qr.sh < message.json 
 ```
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+
 
 ### 3.2 Command to stop the dissolve process.
 
@@ -136,4 +141,4 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving
 $ bash ./quill-qr.sh < message.json 
 ```
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
