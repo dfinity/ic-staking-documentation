@@ -2,15 +2,35 @@
 layout: default
 title: 5. Post-staking acivtivies
 nav_order: 6
-has_children: true
+# has_children: true
 permalink: docs/post-staking-activities
 ---
 
-## 1. Set your neuron to ***vote or follow***
+# 5. Post-staking activitiess
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+# Post-Staking Activities
+
+Congratulations, you have successfully staked ICP.
+
+You can now do a few things:
+
+
+## 5.1. Set your neuron to ***vote or follow***
 
 *This step could happen many times 🔁 per neuron.*
 
 **Voting is critical** for staking because only neurons which vote receive rewards.
+
+a. If you chose the **easiest staking option**... go to the NNS Dapp.
+
+b. If you chose the **safest staking option**...
 
 Currently, voting is not possible with `Quill`. 
 
@@ -40,11 +60,15 @@ Currently, voting is not possible with `Quill`.
 
     4. You can vote with that II via the NNS frontend dapp.
 
-## 2. Collect your neuron’s ***rewards***
+## 5.2. Collect your neuron’s ***rewards***
 
 *This step could happen many times 🔁 per neuron.*
 
-### **2.1 Command to “spawn rewards” from your neuron**
+a. If you chose the **easiest staking option**... go to the NNS Dapp.
+
+b. If you chose the **safest staking option**...
+
+### 5.2.1 Command to “spawn rewards” from your neuron
 
 If the dissolve delay of a neuron is equal to or greater than six months, it will accumulate voting rewards. This happens whether it is currently dissolving or not.
 
@@ -68,7 +92,11 @@ Scan the QR codes on the terminal to send the message to the Internet Computer w
 s
 This command will display the neuron id of the newly created reward neuron. It will have a dissolve delay set to 7 days and be in a non-dissolving state, so you will need to use the `neuron-manage --start-dissolving` command above to begin dissolving that new neuron. In seven days you can then disburse it and the ICP will be transferred into the original controlling account.
 
-### **2.2 Reward harvesting**
+### 5.2.2 Reward harvesting
+
+a. If you chose the **easiest staking option**... go to the NNS Dapp.
+
+b. If you chose the **safest staking option**...
 
 To sum up, once you've staked your ICP and created a neuron, the typical sequence of commands you will run, say monthly, to harvest rewards would be the following:
 
@@ -112,11 +140,15 @@ $ bash ./quill-qr.sh < message.json
 
 **Note: The spawned neurons inherit your hotkeys**
 
-## 3. ***Dissolve*** your neuron to get the ICP locked inside
+## 5.3 ***Dissolve*** your neuron to get the ICP locked inside
 
 *This step could happen many times 🔁 per neuron.*
 
-### 3.1 Command to start the dissolve process.
+a. If you chose the **easiest staking option**... go to the NNS Dapp.
+
+b. If you chose the **safest staking option**...
+
+### 5.3.1 Command to start the dissolve process.
 
 If you determine after some time that you wish to begin dissolving your neuron toward liquidation, you would use the `--start-dissolving` option of the `neuron-manage` command:
 
@@ -130,7 +162,7 @@ $ bash ./quill-qr.sh < message.json
 ![image](../assets/images/qr-code-scan.png)
 
 
-### 3.2 Command to stop the dissolve process.
+### 5.3.2 Command to stop the dissolve process.
 
 If you determine after some time that you wish to begin dissolving your neuron toward liquidation, you would use the `--stop-dissolving` option of the `neuron-manage` command:
 
