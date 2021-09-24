@@ -4,7 +4,7 @@ title: 4.2 Create neuron with dissolve delay
 parent: 4. Safest staking option
 ---
 
-## 2. Create a **neuron** with a **dissolve delay**
+## 4.2 Create a **neuron** with a **dissolve delay**
 
 *This step would only happen once 1️⃣ per neuron.*
 
@@ -19,7 +19,7 @@ Installation steps:
 - OSX: [https://formulae.brew.sh/formula/qrencode](https://formulae.brew.sh/formula/qrencode)
 - Debian package on Ubuntu: TB
 
-### 2.1 Generate a signed message to "create a neuron" using `Quill`
+### 4.2.1 Generate a signed message to "create a neuron" using `Quill`
 
 **Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
@@ -45,14 +45,14 @@ Inside the **air-gapped computer**:
 $ quill --pem-file private.pem neuron-stake --name neuron3 --amount 1 > message.json
 ```
 
-### 2.2 Send the message to the Internet Computer using a QR code
+### 4.2.2 Send the message to the Internet Computer using a QR code
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 
 ![image](../assets/images/qr-code-scan.png)
 
 
-**2.2.1 Convert the `message.json` into QR codes**
+**4.2.2a Convert the `message.json` into QR codes**
 
 `message.json` file actually has multiple messages for the Internet Computer, so you will run a script that will put you in the following loop:
 
@@ -73,10 +73,11 @@ The command will break up all the messages in `message.json` into QR codes you w
 ![image](../assets/images/qr-code.png)
 
 
-**2.2.2. Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
+**4.2.2a Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
 
-- **2.2.2a** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
-- **2.2.2b** Scan QR code on your terminal with your smartphone and send it to the IC
+**4.2.2c** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
+
+**4.2.2c** Scan QR code on your terminal with your smartphone and send it to the IC
     - **Scan code**
 
         ![image](../assets/images/ic-transaction-scan.png)
@@ -86,7 +87,7 @@ The command will break up all the messages in `message.json` into QR codes you w
 
         ![image](../assets/images/ic-transaction-scan-send.png)
 
-- **2.2.2c** Press ENTER on terminal
+**4.2.2d** Press ENTER on terminal
 
 🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
 
@@ -111,7 +112,7 @@ For example, neuron `5241875388871980017` [https://ic.rocks/neuron/5241875388871
 ![image](../assets/images/ic-rocks-neuron.png)
 
 
-### **2.3 Send a message to the neuron to “start dissolve delay”**
+### 4.2.3 Send a message to the neuron to “start dissolve delay”
 
 To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use a command of the form:
 
@@ -120,7 +121,7 @@ To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use
 $ quill --pem-file private.pem neuron-manage $NEURON_ID --additional-dissolve-delay-seconds $SECONDS
 ```
 
-This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in **2.2**. In this case, we are adding `$SECONDS` seconds to the delay time.
+This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in **4.2**. In this case, we are adding `$SECONDS` seconds to the delay time.
 
 The following table gives typical values for `$SECONDS`:
 

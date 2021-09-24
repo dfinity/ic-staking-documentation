@@ -4,7 +4,7 @@ title: 4.0 Setting up your tools
 parent: 4. Safest staking option
 ---
 
-## 0. Getting your tools ready
+## 4.0 Getting your tools ready
 
 What you will need:
 
