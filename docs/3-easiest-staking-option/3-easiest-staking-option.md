@@ -2,11 +2,20 @@
 layout: default
 title: 3. Easiest staking option
 nav_order: 4
-has_children: true
+# has_children: true
 permalink: docs/3-easiest-staking-option
 ---
 
-# 3. Easiest option: How to stake
+# 3. Easiest option
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+# Easiest option: How to stake
 
 If you choose to stake with the **easiest option**, this chapter is for you.
 
@@ -19,12 +28,12 @@ Internet Identity does **not** use passwords and usernames to log in. Internet I
 
 From the point of view a user, a user would use of the following methods to authenticate:
 
-#### Computer
+**Computer**
 
 * Thumb print
 * Yubikey
 
-#### Phone
+**Phone**
 
 * Face ID
 * Thumb print

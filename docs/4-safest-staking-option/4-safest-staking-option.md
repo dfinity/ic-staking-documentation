@@ -2,11 +2,20 @@
 layout: default
 title: 4. Safest staking option
 nav_order: 5
-has_children: true
+# has_children: true
 permalink: docs/safest-staking-option
 ---
 
-# 4. Safest option: How to stake
+# 4. Safest Option
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+# Safest option: How to stake
 
 This chapter is for people who want to have as much control of their ICP as possible by custodying their own `seed phrase` and do not mind more technical hurdles to have maximum control. 
 
