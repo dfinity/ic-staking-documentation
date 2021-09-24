@@ -10,7 +10,7 @@ parent: 4. Safest staking option
 
 In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**,  but we will use a **smartphone** QR code scanner to send the messages *from* **the air-gapped computer** t*o the* Internet Computer.
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
 
 To QR encode your message, you should install `qrencode` (or similar) on your **air-gapped computer.** 
 
@@ -49,7 +49,8 @@ $ quill --pem-file private.pem neuron-stake --name neuron3 --amount 1 > message.
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+
 
 **2.2.1 Convert the `message.json` into QR codes**
 
@@ -69,7 +70,8 @@ $ bash ./quill-qr.sh < message.json
 
 The command will break up all the messages in `message.json` into QR codes you will sca sequentially in step 2.2
 
-![Screen Shot 2021-09-20 at 2.41.29 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/453627a4-6813-4b68-91f2-96968404edb1/Screen_Shot_2021-09-20_at_2.41.29_PM.png)
+![image](../assets/images/qr-code.png)
+
 
 **2.2.2. Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
 
@@ -77,11 +79,12 @@ The command will break up all the messages in `message.json` into QR codes you w
 - **2.2.2b** Scan QR code on your terminal with your smartphone and send it to the IC
     - **Scan code**
 
-        ![Image from iOS (1).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd062a3a-5956-4d82-bbad-aa7252deaec3/Image_from_iOS_(1).png)
+        ![image](../assets/images/ic-transaction-scan.png)
+
 
         - **Press `Send` to send message to the Internet Computer**
 
-        ![Image from iOS (2).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cb1936a-eb66-45b0-af1b-470cfd2a21a3/Image_from_iOS_(2).png)
+        ![image](../assets/images/ic-transaction-scan-send.png)
 
 - **2.2.2c** Press ENTER on terminal
 
@@ -105,7 +108,8 @@ You can view your neuron on community dashboards like [ic.rocks](http://ic.rocks
 
 For example, neuron `5241875388871980017` [https://ic.rocks/neuron/5241875388871980017](https://ic.rocks/neuron/5241875388871980017)
 
-![Screen Shot 2021-09-20 at 1.16.48 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f00f7ab9-14f8-43cc-b078-561eaea5c74b/Screen_Shot_2021-09-20_at_1.16.48_PM.png)
+![image](../assets/images/ic-rocks-neuron.png)
+
 
 ### **2.3 Send a message to the neuron to “start dissolve delay”**
 
@@ -139,8 +143,15 @@ $ bash ./quill-qr.sh < message.json
 
 Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with **`IC Transaction Scanner`** on your phone as in **2.2.**
 
-![Screen Shot 2021-09-20 at 12.32.13 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5092c5cc-09d6-48e1-af0c-caa531ae0f56/Screen_Shot_2021-09-20_at_12.32.13_PM.png)
+![image](../assets/images/qr-code-scan.png)
+
 
 By now we should have the following:
 
-[Outcome ](https://www.notion.so/c5520d4a64b24a3ca7c1650b79458f05)
+| Artifact | Example | Security| Final outcome|
+| ------------- | ------------- |
+| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via Keysmith in this section in 1.2.  <br />• You will have properly stored in 1.1<br />• You deleted this from your computer in 1.5|
+| `private key` | ``| • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via Keysmith in this section in 1.2. |
+| `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 1.3. This can be stored anywhere.|
+| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 2.2. This can be stored anywhere.|
+| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 2.2. This can be stored anywhere.
