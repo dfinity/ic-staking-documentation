@@ -13,13 +13,14 @@ Once you have `Keysmith` and `Quill` installed **air-gapped computer** ready, yo
 
 ### 4.1.1 Use `Keysmith` to generate a seed text
 
-Inside the **air-gapped computer**:
 
+Inside the **air-gapped computer**:
 ```bash
 $ keysmith generate -o seed.txt
 ```
 
 ### 4.1.2 Use `Keysmith` to create a private key and store it in “*private.pem*” file
+
 
 Inside the **air-gapped computer**:
 
@@ -44,20 +45,10 @@ You should write the `ledger account number` down.
 
 Now that you have generated your `seed phrase` and your keys, you should write down the seed on paper or store it in some kind of steel wallet such as Bill Fodl.
 
-To properly store your `seed phrase` see the section linked earlier in the documentation:
+To properly store your `seed phrase` see [where to store your seed phrase](../docs/safest-staking-option#1-where-to-store-your-seed-phrase)
 
-- 1. Where to store your `seed phrase`?
-
-    Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
-
-    1. Paper
-    2. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
-
-        ![image](../assets/images/billfodl.png)
 
 ***NOTE: Do not go to step 4.1.5 until you properly store it.***
-
-DIEGO: **ADD NOTE ABOUT FIRST FOUR CHARACTERS IN SEED PHRASE**
 
 ### 4.1.5 Remove your `seed phrase` from your air-gapped computer
 
