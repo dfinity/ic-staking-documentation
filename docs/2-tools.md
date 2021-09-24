@@ -4,7 +4,7 @@ title: 2. Tool options
 permalink: /tools/
 ---
 
-# II. Tool options
+# 2. Tool options
 
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
 

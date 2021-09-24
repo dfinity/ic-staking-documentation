@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 3. easiest staking option
+title: 3. Easiest staking option
 permalink: /easiest-staking-option/
 ---
 
 
-# III. EASIEST OPTION: How to stake
+# 3. EASIEST OPTION: How to stake
 
 If you choose to stake with the **easiest option**, this chapter is for you.
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 4. Tool options
+title: 4. Safest staking option
 permalink: /safest-staking-option/
 ---
 
 
-# IV. SAFEST OPTION: How to stake
+# 4. SAFEST OPTION: How to stake
 
 If you choose to stake with the **safest option**, this chapter is for you.
 

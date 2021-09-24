@@ -4,6 +4,8 @@ title: 1. Basic Steps and Concepts
 permalink: /basic-steps-concepts/
 ---
 
+# 1. Basic steps and concepts
+
 When someone says that they are staking within the Internet Computer, they mean they have created a **neuron with locked ICP** with a **dissolve delay.**
 
 To stake, these steps will not change, but the tools, commands, or methods you use may be different depending on your needs or software changes to tools.
