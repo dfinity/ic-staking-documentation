@@ -17,9 +17,9 @@ You will need to install the following into your **air-gapped computer**:
     - required to generate keys
 
 2. [`OpenSSSL`](https://wiki.openssl.org/index.php/Binaries) 
-    - required by `Quill`
+    - required by `quill`
 
-3. [`Quill`](https://github.com/dfinity/quill)
+3. [`quill`](https://github.com/dfinity/quill)
 
 4. [`qrencode`](https://github.com/fukuchi/libqrencode) 
     - Generates QR codes for bridging the air gap
@@ -29,4 +29,4 @@ You will need to install the following into your **air-gapped computer**:
     - Required for creating multiple QR codes
     - `brew install jq`
 
-Because an **air-gapped computer** is not connected to the internet, it can be a bit awkward installing these. The most common way to do it is to download them to a **networked computer** and transfer the files to the **air-gapped computer** via CD or USB drive. Others install these on a networked computer *and then* air gap it.
+Because an **air-gapped computer** is not connected to the internet, it can be a bit awkward to install these. The most common way to do it is to download them to a **networked computer** and transfer the files to the **air-gapped computer** via CD or USB drive. Others install these on a networked computer *and then* air-gap it.

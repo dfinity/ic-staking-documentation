@@ -4,12 +4,11 @@ title: 4.1 Generate private key
 parent: 4. Safest staking option
 ---
 
-
 ## 4.1 Generate a **private key**
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
-Once you have `Keysmith` and `Quill` installed **air-gapped computer** ready, you are ready to start.
+Once you have `Keysmith` and `quill` installed **air-gapped computer** ready, you are ready to start.
 
 ### 4.1.1 Use `Keysmith` to generate a seed text
 
