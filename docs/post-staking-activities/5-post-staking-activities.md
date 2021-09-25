@@ -21,7 +21,6 @@ Congratulations, you have successfully staked ICP.
 
 You can now do a few things:
 
-
 ## 5.1. Set your neuron to ***vote or follow***
 
 *This step could happen many times 🔁 per neuron.*
@@ -32,13 +31,13 @@ a. If you chose the **easiest staking option**... go to the NNS Dapp.
 
 b. If you chose the **safest staking option**...
 
-Currently, voting is not possible with `Quill`. 
+Currently, voting is not possible with `quill`. 
 
 - To vote you will have to do the following:
     1. Go to the NNS frontend dapp: [https://nns.ic0.app/](https://nns.ic0.app/)
         1. This may require you to get an Internet Identity
     2. Get your NNS frontend dapp principal for your identity anchor
-    3. Add this principal as a Hot Key with `Quill` to your neuron
+    3. Add this principal as a Hot Key with `quill` to your neuron
 
         A hot key is a lot like a read-only view of a neuron, in that it lets you use a different controller to see the balance, maturity, dissolve delay, and other details of a neuron.
 
@@ -56,7 +55,6 @@ Currently, voting is not possible with `Quill`.
         Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
         ![image](../assets/images/qr-code-scan.png)
-
 
     4. You can vote with that II via the NNS frontend dapp.
 
@@ -137,7 +135,6 @@ $ bash ./quill-qr.sh < message.json
 
 ![image](../assets/images/qr-code-scan.png)
 
-
 **Note: The spawned neurons inherit your hotkeys**
 
 ## 5.3 ***Dissolve*** your neuron to get the ICP locked inside
@@ -164,7 +161,7 @@ $ bash ./quill-qr.sh < message.json
 
 ### 5.3.2 Command to stop the dissolve process.
 
-If you determine after some time that you wish to begin dissolving your neuron toward liquidation, you would use the `--stop-dissolving` option of the `neuron-manage` command:
+If you determine after some time that you wish to stop dissolving your neuron toward liquidation, you would use the `--stop-dissolving` option of the `neuron-manage` command:
 
 ```bash
 $ quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving

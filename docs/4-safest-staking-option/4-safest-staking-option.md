@@ -24,11 +24,11 @@ This chapter is for people who want to have as much control of their ICP as poss
 
 As a reminder, there are three basic steps (whose implementation depend on the technology you choose):
 
-**1. Generate a **private key** 
+**1. Generate a private key** 
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
-**2. Create a **neuron** with a **dissolve delay** 
+**2. Create a neuron with a dissolve delay** 
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 

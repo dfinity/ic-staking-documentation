@@ -20,8 +20,8 @@ The GitHub page is tied to the branch `gh-pagess`. Anything that is merged to `g
 
 The current theme is the "Just the Docs" Jekyll theme.
 
-* Documentation for Just the Docs: https://pmarsceill.github.io/just-the-docs/
-* GitHub page for Just the Docs: https://github.com/pmarsceill/just-the-docs
+* Documentation for "Just the Docs": https://pmarsceill.github.io/just-the-docs/
+* GitHub page for "Just The Docs": https://github.com/pmarsceill/just-the-docs
 
 If you want to change the theme altogether, you need to do the following: 
 

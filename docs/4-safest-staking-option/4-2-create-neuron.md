@@ -15,7 +15,7 @@ In this section, we need to "bridge the air gap." This means that we will contin
 ![image](../assets/images/qr-code-scan.png)
 
 
-### 4.2.1 Generate a signed message to "create a neuron" using `Quill`
+### 4.2.1 Generate a signed message to "create a neuron" using `quill`
 
 **Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
@@ -26,7 +26,7 @@ You will use `quill`'s  `neuron-stake` command of the form:
 quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
 ```
 
-For this command, the `$NAME` is an arbitrary string, **up to 8 characters**, that you can use to identify your neuron for the purposes of topping up later with `Quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. **You should store this.**
+For this command, the `$NAME` is an arbitrary string, **up to 8 characters**, that you can use to identify your neuron for the purposes of topping up later with `quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. **You should store this.**
 
 The `$AMOUNT` should not include the transaction fee, but remember that it will still be deducted from your account, so if you wish to stake everything you've got, stake your balance minus the 0.0001 ICP fee.
 
@@ -126,7 +126,7 @@ The following table gives typical values for `$SECONDS`:
 - Four years: 126230400
 - Eight years: 252460800
 
-In our example, we will start a **1-year dissolve**, so we will use `Quill` to craft the following command:
+In our example, we will start a **1-year dissolve**, so we will use `quill` to craft the following command:
 
 **Inside air-gapped computer**
 
