@@ -86,7 +86,7 @@ Right now, your safest option is:
 
 **Air gapped** computer + **networked** phone
 
-You will usse the **air-gapped computer** to create and sign messages *which it cannot send since computer* is air-gapped. These messages will be turned into QR codes. You will use a **networked smart phone** to "bridge the air gap" by reading QR codes from the **air-gapped computer** and sending them directly to the Internet Computer. The worst case scenario is that the phone does not send the messages, but the phone never gets access to the anything sensitive.
+You will use the **air-gapped computer** to create and sign messages *which it cannot send since the computer* is air-gapped. These messages will be turned into QR codes. You will use a **networked smartphone** to "bridge the air gap" by reading QR codes from the **air-gapped computer** and sending them directly to the Internet Computer. The worst-case scenario is that the phone does not send the messages, but the phone never gets access to anything sensitive.
 
 Soon, you will have *another* option: **[Ledger Nano](https://shop.ledger.com/products/ledger-nano-x) integration**
 

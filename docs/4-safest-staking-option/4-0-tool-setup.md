@@ -15,10 +15,10 @@ What you will need:
 
 You will need to install the following into your **air-gapped computer**:
 
-1. [`Keysmith`](https://github.com/dfinity/keysmith) 
+1. [`keysmith`](https://github.com/dfinity/keysmith) 
     - required to generate keys
 
-2. [`OpenSSSL`](https://wiki.openssl.org/index.php/Binaries) 
+2. [`openSSSL`](https://wiki.openssl.org/index.php/Binaries) 
     - required by `quill`
 
 3. [`quill`](https://github.com/dfinity/quill)
