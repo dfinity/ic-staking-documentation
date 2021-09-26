@@ -4,8 +4,10 @@ title: Home
 nav_order: 1
 permalink: /
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
-# Staking with Self-Custody Documentation
+# Staking with Self-Custody
 
 Anyone can participate in the governance of the Internet Computer blockchain and earn rewards by staking ICP utility tokens as voting neurons.
 

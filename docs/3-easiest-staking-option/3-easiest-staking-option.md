@@ -5,6 +5,8 @@ nav_order: 4
 # has_children: true
 permalink: docs/3-easiest-staking-option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 # 3. Easiest option
 {: .no_toc }

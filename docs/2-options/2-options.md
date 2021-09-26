@@ -4,6 +4,8 @@ title: 2. Options
 nav_order: 3
 permalink: /2-options/
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 # 2. Easiest or Safest
 {: .no_toc }
@@ -13,6 +15,7 @@ permalink: /2-options/
 
 1. TOC
 {:toc}
+
 
 # Options: Easiest or Safest?
 

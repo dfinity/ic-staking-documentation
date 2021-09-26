@@ -3,6 +3,8 @@ layout: default
 title: 4.0 Setting up your tools
 parent: 4. Safest staking option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 ## 4.0 Getting your hardware and software  ready
 

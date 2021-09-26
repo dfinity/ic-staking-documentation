@@ -5,6 +5,8 @@ nav_order: 5
 has_children: true
 permalink: docs/safest-staking-option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 # 4. Safest Option
 {: .no_toc }

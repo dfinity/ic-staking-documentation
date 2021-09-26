@@ -5,6 +5,8 @@ nav_order: 6
 # has_children: true
 permalink: docs/post-staking-activities
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 # 5. Post-staking activitiess
 {: .no_toc }
