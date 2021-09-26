@@ -8,7 +8,7 @@ parent: 4. Safest staking option
 
 What you will need:
 
-- **air-gapped** computer (not connected to the internet)
+- **air-gapped** computer ([not connected to the internet](https://en.wikipedia.org/wiki/Air_gap_(networking)))
 - **networked** smartphone
 
 You will need to install the following into your **air-gapped computer**:
