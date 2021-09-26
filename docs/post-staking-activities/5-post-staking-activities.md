@@ -122,11 +122,11 @@ $ bash ./quill-qr.sh < message.json
 ```
 
 ![image](../assets/images/qr-code-scan-2.png)
-s
+
 
 ```bash
 
-// 7 days later, disbursse the neuron
+// 7 days later, disburse the neuron
 $ quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --disburse
 // send message via QR codde app
 
