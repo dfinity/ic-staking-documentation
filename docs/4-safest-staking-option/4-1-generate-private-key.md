@@ -65,7 +65,7 @@ $ rm -vf seed.txt
 
 In this section, we did a few things, so let’s recap what we did and where we should be before moving forward.
 
-**If you do not end up with a table that looks like the one below, do not continu**e. Try again, check out support, or submit a question to support.
+**If you do not end up with a table that looks like the one below, do not continue**. Try again, check out support, or submit a question to support.
 
 | Artifact | Example1 | Security| Final outcome|
 | :------------- | :------------- | :------------- | :------------- |

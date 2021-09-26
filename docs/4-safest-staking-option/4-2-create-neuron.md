@@ -8,7 +8,7 @@ parent: 4. Safest staking option
 
 *This step would only happen once 1️⃣ per neuron.*
 
-Note: To "create a neuron with dissolve delay" and "stake ICP" are equivalent so they will be used interchangeably.
+**Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
 This section assumess you succesffully installed the the QR tools on your **air-gapped computer** from 4.0.
 
@@ -20,11 +20,12 @@ In this section, we need to "bridge the air gap." This means that we will contin
 
 This account number lives in the Ledger canister that maintains the ICP addresses for the entire network. This account number is analogous to "addresses" in other blockchains. You need to send the ICP you want to stake to the `ledger account number`. In our case, the `ledger account number` from 4.1 was `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da` so that is what we woud use.
 
-To create a neuron, you need to stake a minimum of 1 ICP. Anything less, will not work.
+To create a neuron, you need to stake a minimum of 1 ICP. Anything lesss will *not* successfully create a neuron.
+
+**If you cannot send ICP to your ledger account number, do not continue.** Try again, check out support, or submit a question to support.
 
 ### 4.2.2 Generate a signed message to "create a neuron" using `quill`
 
-**Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
 You will use `quill`'s  `neuron-stake` command of the form:
 
