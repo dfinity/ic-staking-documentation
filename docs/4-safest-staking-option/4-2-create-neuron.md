@@ -74,14 +74,17 @@ The command will break up all the messages in `message.json` into QR codes you w
 **4.2.2c** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
 
 **4.2.2c** Scan QR code on your terminal with your smartphone and send it to the IC
-    - **Scan code**
 
-        ![image](../assets/images/ic-transaction-scan.png)
+**Scan code**
 
+<!-- ![image](../assets/images/ic-transaction-scan.png) -->
+<img src="../assets/images/ic-transaction-scan.png" alt="drawing" width="300"/>
 
-        - **Press `Send` to send message to the Internet Computer**
+**Press `Send` to send message to the Internet Computer**
 
-        ![image](../assets/images/ic-transaction-scan-send.png)
+<!-- ![image](../assets/images/ic-transaction-scan-send.png) -->
+<img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
+
 
 **4.2.2d** Press ENTER on terminal
 
