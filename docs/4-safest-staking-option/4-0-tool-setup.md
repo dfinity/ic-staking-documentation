@@ -22,13 +22,14 @@ You will need to install the following into your **air-gapped computer**:
     - required by `quill`
 
 3. [`quill`](https://github.com/dfinity/quill)
+    - you will use this to craft messages like "create neuron" for the Internet Computer
 
 4. [`qrencode`](https://github.com/fukuchi/libqrencode) 
     - Generates QR codes for bridging the air gap
-    - `brew install qrencode`
+    - Tip: if you have Homebrew, you can install via `brew install qrencode`
 
 5. [`jq`](https://github.com/stedolan/jq) 
     - Required for creating multiple QR codes
-    - `brew install jq`
+    - Tip: if you have Homebrew, you can install via `brew install jq`
 
 Because an **air-gapped computer** is not connected to the internet, it can be a bit awkward to install these. The most common way to do it is to download them to a **networked computer** and transfer the files to the **air-gapped computer** via CD or USB drive. Others install these on a networked computer *and then* air-gap it.
