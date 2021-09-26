@@ -30,7 +30,7 @@ This chapter summarizes your options from **easiest** to **safest**.
 ### Traits
 
 * Most convenient. Entirely web-based. No need to download or install anything.
-* NNS Dapp has all the functionality you need
+* [NNS frontend dapp](https://nns.ic0.app/) has all the functionality you need
 * This is a very common method
 * Ideal for people who want to want the easiest path to control their ICP
 

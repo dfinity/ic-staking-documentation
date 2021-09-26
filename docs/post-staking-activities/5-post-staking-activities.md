@@ -29,7 +29,7 @@ You can now do a few things:
 
 **Voting is critical** for staking because only neurons which vote receive rewards.
 
-a. If you chose the **easiest staking option**... go to the NNS Dapp.
+a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
 b. If you chose the **safest staking option**...
 
@@ -64,7 +64,7 @@ Currently, voting is not possible with `quill`.
 
 *This step could happen many times 🔁 per neuron.*
 
-a. If you chose the **easiest staking option**... go to the NNS Dapp.
+a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
 b. If you chose the **safest staking option**...
 
@@ -94,7 +94,7 @@ This command will display the neuron id of the newly created reward neuron. It w
 
 ### 5.2.2 Reward harvesting
 
-a. If you chose the **easiest staking option**... go to the NNS Dapp.
+a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
 b. If you chose the **safest staking option**...
 
@@ -143,7 +143,7 @@ $ bash ./quill-qr.sh < message.json
 
 *This step could happen many times 🔁 per neuron.*
 
-a. If you chose the **easiest staking option**... go to the NNS Dapp.
+a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
 b. If you chose the **safest staking option**...
 
