@@ -21,7 +21,18 @@ Warning: documentation in beta
 
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
 
-This chapter summarizes your options from **easiest** to **safest**.
+Below is a summary of the range of options availale to you depending on your comfort level.
+
+<img src="../assets/images/staking-options.png" alt="drawing"/>
+*Fig. 1: staking options*
+
+**This documentation is for people who choose self-custody.**
+
+<img src="../assets/images/self-custody-staking-options.png" alt="drawing"/>
+*Fig. 2: self-custody staking options*
+
+
+This chapter summarizes your self-custody options from **easiest** to **safest**.
 
 ## Easiest Option
 
