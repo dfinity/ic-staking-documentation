@@ -42,7 +42,7 @@ Use your `seed phrase` directly with a few options for self-custody tools.
 
 ### Traits
 
-* This option is requires more technical understanding 
+* This option requires more technical understanding 
 * This is the *safest* option from a software point of view because you are relying on less software surface area, but it is the *riskiest* from a human point of view in that it puts the risk of your `seed phrase` and `private key` custody on you.
 * Ideal for people who want as much control over their ICP as possible
 
