@@ -8,9 +8,9 @@ parent: 4. Safest staking option
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
-Once you have `Keysmith` and `quill` installed **air-gapped computer** ready, you are ready to start.
+Once you have `keysmith` and `quill` installed **air-gapped computer** ready, you are ready to start.
 
-### 4.1.1 Use `Keysmith` to generate a seed text
+### 4.1.1 Use `keysmith` to generate a seed text
 
 
 Inside the **air-gapped computer**:
@@ -18,7 +18,7 @@ Inside the **air-gapped computer**:
 $ keysmith generate -o seed.txt
 ```
 
-### 4.1.2 Use `Keysmith` to create a private key and store it in “*private.pem*” file
+### 4.1.2 Use `keysmith` to create a private key and store it in `private.pem` file
 
 
 Inside the **air-gapped computer**:
@@ -27,7 +27,7 @@ Inside the **air-gapped computer**:
 $ keysmith private-key -o private.pem
 ```
 
-### 4.1.3 Use `Keysmith` to display a `ledger account number`
+### 4.1.3 Use `keysmith` to display a `ledger account number`
 
 This command will display a long string which is your `ledger account number`. Below, I provide an example of what this may look like.
 
@@ -69,8 +69,8 @@ In this section, we did a few things, so let’s recap what we did and where we 
 
 | Artifact | Example1 | Security| Final outcome|
 | :------------- | :------------- | :------------- | :------------- |
-| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via Keysmith in this section in 4.1.1  <br />• You will have properly stored in 4.1.4 <br />• You deleted this from your computer in 4.1.5|
-| `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via Keysmith in this section in 4.1.2. |
+| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via `keysmith` in this section in 4.1.1  <br />• You will have properly stored in 4.1.4 <br />• You deleted this from your computer in 4.1.5|
+| `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via `keysmith` in this section in 4.1.2. |
 | `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 4.1.3. This can be stored anywhere.
 
 
