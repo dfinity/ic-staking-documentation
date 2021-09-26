@@ -8,14 +8,21 @@ parent: 4. Safest staking option
 
 *This step would only happen once 1️⃣ per neuron.*
 
+Note: To "create a neuron with dissolve delay" and "stake ICP" are equivalent so they will be used interchangeably.
+
 This section assumess you succesffully installed the the QR tools on your **air-gapped computer** from 4.0.
 
 In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**, but we will use a **networked smartphone**'s QR code scanner to send the messages *from* **the air-gapped computer** *to the* Internet Computer.
 
 ![image](../assets/images/qr-code-scan.png)
 
+### 4.2.1 Send ICP to the `ledger account number` created in previous chapter
 
-### 4.2.1 Generate a signed message to "create a neuron" using `quill`
+This account number lives in the Ledger canister that maintains the ICP addresses for the entire network. This account number is analogous to "addresses" in other blockchains. You need to send the ICP you want to stake to the `ledger account number`. In our case, the `ledger account number` from 4.1 was `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da` so that is what we woud use.
+
+To create a neuron, you need to stake a minimum of 1 ICP. Anything less, will not work.
+
+### 4.2.2 Generate a signed message to "create a neuron" using `quill`
 
 **Note**: *To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
@@ -41,14 +48,14 @@ Inside the **air-gapped computer**:
 $ quill --pem-file private.pem neuron-stake --name neuron3 --amount 1 > message.json
 ```
 
-### 4.2.2 Send the message to the Internet Computer using a QR code
+### 4.2.3 Send the message to the Internet Computer using a QR code
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 
 ![image](../assets/images/qr-code-scan.png)
 
 
-**4.2.2a Convert the `message.json` into QR codes**
+**4.2.3a Convert the `message.json` into QR codes**
 
 `message.json` file actually has multiple messages for the Internet Computer, so you will run a script that will put you in the following loop:
 
@@ -69,11 +76,11 @@ The command will break up all the messages in `message.json` into QR codes you w
 ![image](../assets/images/qr-code.png)
 
 
-**4.2.2a Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
+**4.2.3b Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
 
-**4.2.2c** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
+**4.2.3c** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
 
-**4.2.2c** Scan QR code on your terminal with your smartphone and send it to the IC
+**4.2.3d** Scan QR code on your terminal with your smartphone and send it to the IC
 
 **Scan code**
 
@@ -86,7 +93,7 @@ The command will break up all the messages in `message.json` into QR codes you w
 <img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
 
 
-**4.2.2d** Press ENTER on terminal
+**4.2.3e** Press ENTER on terminal
 
 🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
 
@@ -111,7 +118,7 @@ For example, neuron `5241875388871980017` [https://ic.rocks/neuron/5241875388871
 ![image](../assets/images/ic-rocks-neuron.png)
 
 
-### 4.2.3 Send a message to the neuron to “start dissolve delay”
+### 4.2.4 Send a message to the neuron to “start dissolve delay”
 
 To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use a command of the form:
 
@@ -120,7 +127,7 @@ To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use
 $ quill --pem-file private.pem neuron-manage $NEURON_ID --additional-dissolve-delay-seconds $SECONDS
 ```
 
-This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in **4.2**. In this case, we are adding `$SECONDS` seconds to the delay time.
+This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in **4.2.2**. In this case, we are adding `$SECONDS` seconds to the delay time.
 
 The following table gives typical values for `$SECONDS`:
 
@@ -141,7 +148,7 @@ $ quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-di
 $ bash ./quill-qr.sh < message.json
 ```
 
-Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with **`IC Transaction Scanner`** on your phone as in **2.2.**
+Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with **`IC Transaction Scanner`** on your phone as in **4.2.3**
 
 ![image](../assets/images/qr-code-scan.png)
 
@@ -153,5 +160,5 @@ By now we should have the following:
 | `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via Keysmith in this section in 4.1.1.  <br />• You will have properly stored in 4.1.4<br />• You deleted this from your computer in 4.1.5|
 | `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via Keysmith in this section in 4.1.2. |
 | `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 1.3. This can be stored anywhere.|
-| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.1. This can be stored anywhere.|
-| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.2. This can be stored anywhere.
+| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.2. This can be stored anywhere.|
+| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.3. This can be stored anywhere.
