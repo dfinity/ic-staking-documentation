@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 2. Options
+title: 2. Options for staking
 nav_order: 3
-permalink: /2-options/
+permalink: /2-options-for-staking/
 ---
 Warning: documentation in beta
 {: .label .label-red }
