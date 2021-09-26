@@ -38,7 +38,7 @@ As a reminder, there are three basic steps (whose implementation depend on the t
 
 *This step could happen many times 🔁 per neuron.*
 
-This chapter explains how to accomplish these steps given one self-ustodies their own `seed phrase`.
+This chapter explains how to accomplish these steps given one self-custodies their own `seed phrase`.
 
 
 ## The Risks involved
