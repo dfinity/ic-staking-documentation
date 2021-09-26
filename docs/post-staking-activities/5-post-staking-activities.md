@@ -37,13 +37,13 @@ Currently, voting is not possible with `quill`.
 
 - To vote you will have to do the following:
     1. Go to the NNS frontend dapp: [https://nns.ic0.app/](https://nns.ic0.app/)
-        1. This may require you to get an Internet Identity
+        a. This may require you to get an [Internet Identity](https://identity.ic0.app/)
     2. Get your NNS frontend dapp principal for your identity anchor
     3. Add this principal as a Hot Key with `quill` to your neuron
 
         A hot key is a lot like a read-only view of a neuron, in that it lets you use a different controller to see the balance, maturity, dissolve delay, and other details of a neuron.
 
-        Where this becomes most useful is in conjunction with the NNS App and your Internet Identity. If you log in to the NNS App and visit the Neurons tab, it will display a Principal Id value at the top of that tab. Use that principal id with `quill` to establish the NNS App as a hot key for your neuron:
+        Where this becomes most useful is in conjunction with the NNS frontend dapp and your Internet Identity. If you log in to the NNS App and visit the Neurons tab, it will display a Principal Id value at the top of that tab. Use that principal id with `quill` to establish the NNS App as a hot key for your neuron:
 
         ```bash
         $ quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
@@ -173,3 +173,30 @@ $ bash ./quill-qr.sh < message.json
 ```
 
 ![image](../assets/images/qr-code-scan-2.png)
+
+## 5.4  Adding a Hot Key
+
+A hot key is a lot like a read-only view of a neuron, in that it lets you use a different controller to see the balance, maturity, dissolve delay and other details of a neuron. Where this becomes most useful is in conjunction with the [NNS frontend dapp](https://nns.ic0.app/) and your [Internet Identity](https://identity.ic0.app/).
+
+a. If you chose the **easiest staking option**...  you do not need this, you can already view it on the [NNS frontend dapp](https://nns.ic0.app/).
+
+b. If you chose the **safest staking option**...
+
+Log in to the [NNS frontend dapp](https://nns.ic0.app/) and visit the Neurons tab, it will display a Principal Id value at the top of that tab. 
+
+![image](../assets/images/nns-frontend-dapp-neurons.png)
+
+Use that principal id with `quill` to establish the [NNS frontend dapp](https://nns.ic0.app/) as a hot key for your neuron:
+	
+```bash
+
+// Add the hot key from the NNS frontend dapp to your self-custodied neuron
+$ quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
+
+// Using "message.json", create QR codes you can scan with your phone
+$ bash ./quill-qr.sh < message.json
+```
+![image](../assets/images/qr-code-scan-2.png)
+
+
+Now refresh the [NNS frontend dapp](https://nns.ic0.app/) in your browser, and you should see your Neuron displayed. You may change the followees and topics for the neuron now in the NNS App interface, but will not be able to dissolve, disburse or spawn.

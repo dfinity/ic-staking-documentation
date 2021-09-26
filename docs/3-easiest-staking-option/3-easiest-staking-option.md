@@ -25,7 +25,7 @@ If you choose to stake with the **easiest option**, this chapter is for you.
 
 ### 1. How do you authenticate to Internet Identity?
 
-Internet Identity does **not** use passwords and usernames to log in. Internet Identity takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (ssuch as a phone, yuibkey, etc...) instead of "something you know" (like a password).
+Internet Identity does **not** use passwords and usernames to log in. [Internet Identity](https://identity.ic0.app/) takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (ssuch as a phone, yuibkey, etc...) instead of "something you know" (like a password).
 
 From the point of view a user, a user would use of the following methods to authenticate:
 
@@ -51,7 +51,7 @@ To add more devices to an existing Identity Anchor, [please see the guide here]
 
 If you use this combination, you are accepting the following trade-offs:
 
-* If you only have 1 device tied to your Internet Identity, and you lose that device, you lose all access. You should add multiple devices in case one of them malfunctions. For example, if you have only one iPhone attached as a device to your Internet Identity, you are risking your ICP on that iPhone's Face Id always recognizing you. If it cannot, then you lost access to your ICP. Similarly, if you lose your phone, you would lose your ICP.
+* If you only have 1 device tied to your [Internet Identity](https://identity.ic0.app/), and you lose that device, you lose all access. You should add multiple devices in case one of them malfunctions. For example, if you have only one iPhone attached as a device to your Internet Identity, you are risking your ICP on that iPhone's Face Id always recognizing you. If it cannot, then you lost access to your ICP. Similarly, if you lose your phone, you would lose your ICP.
 * Not all devices and browsers support WebAuthn, so this option is sometimes not available.
-* You are accepting the risk that the [community-vetted NNS Front End Dapp](https://github.com/dfinity/nns-dapp) is not compromised
+* You are accepting the risk that the [community-vetted NNS Frontend dapp](https://github.com/dfinity/nns-dapp) is not compromised
 * You are accepting the risk that the [community-vetted Internet Identity canister](https://medium.com/dfinity/verifying-the-internet-identity-code-a-walkthrough-c1dd7a53f883) is not compromised
