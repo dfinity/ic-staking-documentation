@@ -73,6 +73,7 @@ If someone gets these, they can see how ICP you have or your transactions
 Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
 
 a. Paper
+
 b. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
 
 ![image](../assets/images/billfodl.png)
