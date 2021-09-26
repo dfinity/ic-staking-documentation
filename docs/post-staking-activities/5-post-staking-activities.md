@@ -56,7 +56,7 @@ Currently, voting is not possible with `quill`.
 
         Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
-        ![image](../assets/images/qr-code-scan.png)
+        ![image](../assets/images/qr-code-scan-2.png)
 
     4. You can vote with that II via the NNS frontend dapp.
 
@@ -88,7 +88,7 @@ $ bash ./quill-qr.sh < message.json
 
 Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 This command will display the neuron id of the newly created reward neuron. It will have a dissolve delay set to 7 days and be in a non-dissolving state, so you will need to use the `neuron-manage --start-dissolving` command above to begin dissolving that new neuron. In seven days you can then disburse it and the ICP will be transferred into the original controlling account.
 
@@ -108,7 +108,7 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --spawn > message.json
 $ bash ./quill-qr.sh < message.json
 ```
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 
 ```bash
@@ -121,7 +121,7 @@ $ bash ./quill-qr.sh < message.json
 
 ```
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 s
 
 ```bash
@@ -135,7 +135,7 @@ $ bash ./quill-qr.sh < message.json
 
 ```
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 **Note: The spawned neurons inherit your hotkeys**
 
@@ -158,7 +158,7 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --start-dissolving
 $ bash ./quill-qr.sh < message.json 
 ```
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 
 ### 5.3.2 Command to stop the dissolve process.
@@ -172,4 +172,4 @@ $ quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving
 $ bash ./quill-qr.sh < message.json 
 ```
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)

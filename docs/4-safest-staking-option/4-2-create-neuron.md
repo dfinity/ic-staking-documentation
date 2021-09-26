@@ -14,7 +14,7 @@ This section assumess you succesffully installed the the QR tools on your **air-
 
 In this section, we need to "bridge the air gap." This means that we will continue to perform the ***sensitive*** operations within the **air-gapped computer**, but we will use a **networked smartphone**'s QR code scanner to send the messages *from* **the air-gapped computer** *to the* Internet Computer.
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 ### 4.2.1 Send ICP to the `ledger account number` created in previous chapter
 
@@ -53,7 +53,7 @@ $ quill --pem-file private.pem neuron-stake --name neuron3 --amount 1 > message.
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 
 **4.2.3a Convert the `message.json` into QR codes**
@@ -151,7 +151,7 @@ $ bash ./quill-qr.sh < message.json
 
 Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with **`IC Transaction Scanner`** on your phone as in **4.2.3**
 
-![image](../assets/images/qr-code-scan.png)
+![image](../assets/images/qr-code-scan-2.png)
 
 
 By now we should have the following:
