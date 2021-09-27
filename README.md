@@ -10,7 +10,7 @@ The GitHub page is composed of pages in the `/docs` directory. Editing the copy 
 
 ## How to run this locally
 
-To run this locally, you should follow the instructions at [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll.
+To run this locally, you should follow the instructions at [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
 ## How to deploy changes
 

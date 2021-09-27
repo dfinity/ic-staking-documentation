@@ -4,6 +4,15 @@ title: 4.2 Create neuron with dissolve delay
 parent: 4. Safest Staking Option
 ---
 
+# 4.2 Create a **neuron** with a **dissolve delay**
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ## 4.2 Create a **neuron** with a **dissolve delay**
 
 *This step would only happen once 1️⃣ per neuron.*
@@ -24,7 +33,7 @@ To create a neuron, you need to stake a minimum of 1 ICP. Anything lesss will *n
 
 **If you cannot send ICP to your ledger account number, do not continue.** Try again, check out support, or submit a question to support.
 
-### 4.2.2 Generate a signed message to "create a neuron" using `quill`
+### 4.2.2 In air-gapped computer, generate a signed message to "create a neuron" using `quill`
 
 
 You will use `quill`'s  `neuron-stake` command of the form:
@@ -49,14 +58,14 @@ Inside the **air-gapped computer**:
 $ quill --pem-file private.pem neuron-stake --name neuron3 --amount 1 > message.json
 ```
 
-### 4.2.3 Send the message to the Internet Computer using a QR code
+### 4.2.3 Bridge the Airgap: Send the message to the Internet Computer using a QR code
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 
 ![image](../assets/images/qr-code-scan-2.png)
 
 
-**4.2.3a Convert the `message.json` into QR codes**
+#### 4.2.3a Convert the `message.json` into QR codes
 
 `message.json` file actually has multiple messages for the Internet Computer, so you will run a script that will put you in the following loop:
 
@@ -77,11 +86,13 @@ The command will break up all the messages in `message.json` into QR codes you w
 ![image](../assets/images/qr-code.png)
 
 
-**4.2.3b Navigate your smartphone to `IC Transaction Scanner`** **and scan the QR code**: 
+#### 4.2.3b Navigate your smartphone to `IC Transaction Scanner` and scan the QR code: 
 
-**4.2.3c** URL for **`IC Transaction Scanner`:** [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
+On your **networked smartphone**, navigate to URL for `IC Transaction Scanner`: [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
 
-**4.2.3d** Scan QR code on your terminal with your smartphone and send it to the IC
+#### **4.2.3c Scan QR code from your air-gapped terminal**
+
+We will scan the QR code so your **networked smartphone** sends the message written in the **air-gapped computer.**
 
 **Scan code**
 
@@ -94,7 +105,9 @@ The command will break up all the messages in `message.json` into QR codes you w
 <img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
 
 
-**4.2.3e** Press ENTER on terminal
+#### 4.2.3d Press ENTER on terminal to get the next QR code
+
+Repeat step 4.2.3c if there are any other QR codes
 
 🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
 
