@@ -7,6 +7,6 @@ parent: 6. Alternative Staking Options
 Warning: documentation in beta
 {: .label .label-red }
     
-# [Experimental] Self-custody with Ledger Nanos
+# [Experimental] Self-custody with Ledger Nano
  
 *Coming soon!*

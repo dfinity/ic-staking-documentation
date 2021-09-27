@@ -4,13 +4,17 @@ title: 4.1 Generate private key
 parent: 4. Safest Staking Option
 ---
 
-## 4.1 Generate a **private key**
+# 4.1 Generate a **private key**
 
 *This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
 
+Everything in this section occurs within your **air-gapped computer.**
+
+<img src="../assets/images/air-gapped-computer.png" alt="drawing" width="300"/>
+
 Once you have `keysmith` and `quill` installed **air-gapped computer** ready, you are ready to start.
 
-### 4.1.1 Use `keysmith` to generate a seed text
+## 4.1.1 Use `keysmith` to generate a seed text
 
 
 Inside the **air-gapped computer**:
@@ -18,7 +22,7 @@ Inside the **air-gapped computer**:
 $ keysmith generate -o seed.txt
 ```
 
-### 4.1.2 Use `keysmith` to create a private key and store it in `private.pem` file
+## 4.1.2 Use `keysmith` to create a private key and store it in `private.pem` file
 
 
 Inside the **air-gapped computer**:
@@ -27,7 +31,7 @@ Inside the **air-gapped computer**:
 $ keysmith private-key -o private.pem
 ```
 
-### 4.1.3 Use `keysmith` to display a `ledger account number`
+## 4.1.3 Use `keysmith` to display a `ledger account number`
 
 This command will display a long string which is your `ledger account number`. Below, I provide an example of what this may look like.
 
@@ -40,7 +44,7 @@ $ keysmith account
 
 You should write the `ledger account number` down.
 
-### 4.1.4 Secure your `seed phrase` properly
+## 4.1.4 Secure your `seed phrase` properly
 
 Now that you have generated your `seed phrase` and your keys, you should write down the seed on paper or store it in some kind of steel wallet such as Bill Fodl.
 
@@ -49,7 +53,7 @@ To properly store your `seed phrase` see [where to store your seed phrase](../do
 
 ***NOTE: Do not go to step 4.1.5 until you properly store it.***
 
-### 4.1.5 Remove your `seed phrase` from your air-gapped computer
+## 4.1.5 Remove your `seed phrase` from your air-gapped computer
 
 Now that the `seed phrase` is properly stored. You should delete it from your computer before moving forward so no one can use it to recreate your private key.  
 
@@ -61,7 +65,7 @@ Inside the **air-gapped computer**:
 $ rm -vf seed.txt
 ```
 
-### 4.1.6 Outcome
+## 4.1.6 Outcome
 
 In this section, we did a few things, so let’s recap what we did and where we should be before moving forward.
 
