@@ -8,8 +8,6 @@ permalink: docs/post-staking-activities
 Warning: documentation in beta
 {: .label .label-red }
 
-# 5. Post-staking activitiess
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -17,12 +15,13 @@ Warning: documentation in beta
 1. TOC
 {:toc}
 
-# Post-Staking Activities
+# 5.0 Post-Staking Activities
 
 Congratulations, you have successfully staked ICP.
 
 You can now do a few things:
 
+* * *
 ## 5.1. Set your neuron to ***vote or follow***
 
 *This step could happen many times 🔁 per neuron.*
@@ -60,6 +59,7 @@ Currently, voting is not possible with `quill`.
 
     4. You can vote with that II via the NNS frontend dapp.
 
+* * *
 ## 5.2. Collect your neuron’s ***rewards***
 
 *This step could happen many times 🔁 per neuron.*
@@ -137,8 +137,9 @@ $ bash ./quill-qr.sh < message.json
 
 ![image](../assets/images/qr-code-scan-2.png)
 
-**Note: The spawned neurons inherit your hotkeys**
+**Note: The spawned neurons inherit your hot keys**
 
+* * *
 ## 5.3 ***Dissolve*** your neuron to get the ICP locked inside
 
 *This step could happen many times 🔁 per neuron.*
@@ -174,6 +175,7 @@ $ bash ./quill-qr.sh < message.json
 
 ![image](../assets/images/qr-code-scan-2.png)
 
+* * *
 ## 5.4  Adding a Hot Key
 
 A hot key is a lot like a read-only view of a neuron, in that it lets you use a different controller to see the balance, maturity, dissolve delay and other details of a neuron. Where this becomes most useful is in conjunction with the [NNS frontend dapp](https://nns.ic0.app/) and your [Internet Identity](https://identity.ic0.app/).

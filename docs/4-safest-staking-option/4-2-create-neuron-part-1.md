@@ -24,7 +24,7 @@ In this section, we need to "bridge the air gap." This means that we will contin
 ![image](../assets/images/qr-code-scan-2.png)
 
 * * *
-## 4.2.1 Send ICP to the `ledger account number` created in previous chapter
+## 4.2.1 Send ICP to your `ledger account number`
 
 This account number lives in the Ledger canister that maintains the ICP addresses for the entire network. This account number is analogous to "addresses" in other blockchains. You need to send the ICP you want to stake to the `ledger account number`. In our case, the `ledger account number` from 4.1 was `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da` so that is what we woud use.
 
@@ -33,13 +33,15 @@ To create a neuron, you need to stake a minimum of 1 ICP. Anything lesss will *n
 **If you cannot send ICP to your ledger account number, do not continue.** Try again, check out support, or submit a question to support.
 
 * * *
-## 4.2.2 In air-gapped computer, generate a signed message to "create a neuron" using `quill`
+## 4.2.2 Generate a signed message to "create a neuron" using `quill`
 
 You will use `quill`'s  `neuron-stake` command of the form:
 
-```jsx
+Inside the **air-gapped computer**:
+
+```bash
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
-quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
+$ quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
 ```
 
 For this command, the `$NAME` is an arbitrary string, up to 8 characters, that you can use to identify your neuron for the purposes of topping up later with `quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. **You should store this.**

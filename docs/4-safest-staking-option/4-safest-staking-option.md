@@ -73,6 +73,7 @@ If someone gets these, they can see how ICP you have or your transactions
 
 ### 1. Where to store your `seed phrase`?
 
+
 Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
 
 a. Paper
@@ -83,13 +84,12 @@ b. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
 
 ### 2. Once you have your `seed phrase`, what **tools** can you stake with?
 
+
 Right now, your safest option is:
 
 **Air gapped** computer + **networked** phone
 
-You will use the **air-gapped computer** to create and sign messages *which it cannot send since the computer* is air-gapped. These messages will be turned into QR codes. You will use a **networked smartphone** to "bridge the air gap" by reading QR codes from the **air-gapped computer** and sending them directly to the Internet Computer. The worst-case scenario is that the phone does not send the messages, but the phone never gets access to anything sensitive.
+You will use the **air-gapped computer** to create and sign messages *which it cannot send since the computer* is air-gapped. These messages will be turned into QR codes. You will use a **networked smartphone** to "bridge the air gap" in section 4.2 by reading QR codes from the **air-gapped computer** and sending them directly to the Internet Computer. Security-wise, the worst-case scenario is that the phone does not send the messages, but the phone never gets access to anything sensitive.
 
-Soon, you will have *another* option: **[Ledger Nano](https://shop.ledger.com/products/ledger-nano-x) integration**
-
-You can see a [preview here of how it will work](https://www.youtube.com/watch?v=YefRR6O-xjg)
+Soon, you will have *another* option: **[Ledger Nano](https://shop.ledger.com/products/ledger-nano-x) integration**. You can see a [preview here of how it will work](https://www.youtube.com/watch?v=YefRR6O-xjg)
 
