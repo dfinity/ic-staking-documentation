@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.3 Add more ICP to the Neuron
-parent: 4. Safest staking option
+parent: 4. Safest Staking Option
 ---
 
 ## 4.3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)

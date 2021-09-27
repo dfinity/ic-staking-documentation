@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.2 Create neuron with dissolve delay
-parent: 4. Safest staking option
+parent: 4. Safest Staking Option
 ---
 
 ## 4.2 Create a **neuron** with a **dissolve delay**

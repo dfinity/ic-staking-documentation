@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4. Safest staking option
+title: 4. Safest Staking Option
 nav_order: 5
 has_children: true
 permalink: docs/safest-staking-option

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.1 Generate private key
-parent: 4. Safest staking option
+parent: 4. Safest Staking Option
 ---
 
 ## 4.1 Generate a **private key**
