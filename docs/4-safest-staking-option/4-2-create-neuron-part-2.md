@@ -14,9 +14,7 @@ parent: 4. Safest Staking Option
 ## Part 2 of 3: Bridge the air-gap
 
 
-This section walks you through the tools necessary to bridhge the air gap between your **air-gapped computer** and the **networked smartphone**.
-
-<img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
+This section walks you through the tools necessary to bridge the air gap between your **air-gapped computer** and the **networked smartphone**.
 
 ## 4.2.3 Bridge the Airgap: Send the message to the Internet Computer using a QR code
 
