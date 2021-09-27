@@ -8,20 +8,20 @@ permalink: docs/safest-staking-option
 Warning: documentation in beta
 {: .label .label-red }
 
-# 4. Safest Option
 {: .no_toc }
 
-## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
+* * *
 # Safest option: How to stake
 
 This chapter is for people who want to have as much control of their ICP as possible by custodying their own `seed phrase` and do not mind more technical hurdles to have maximum control. 
 
-
+* * *
 ## The three steps to stake
 
 As a reminder, there are three basic steps (whose implementation depend on the technology you choose):
@@ -40,7 +40,7 @@ As a reminder, there are three basic steps (whose implementation depend on the t
 
 This chapter explains how to accomplish these steps given one self-custodies their own `seed phrase`.
 
-
+* * *
 ## The Risks involved
 
 There are various artifacts that can be derived from your `seed phrase`. The diagram below explains which are derived and the risks from each artifact.
@@ -68,6 +68,7 @@ If you lose these, you can regenerate them from your `seed phrase`
 
 If someone gets these, they can see how ICP you have or your transactions
 
+* * *
 ## Decisions you need to make
 
 ### 1. Where to store your `seed phrase`?

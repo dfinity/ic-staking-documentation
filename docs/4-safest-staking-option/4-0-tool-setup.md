@@ -6,6 +6,7 @@ parent: 4. Safest Staking Option
 Warning: documentation in beta
 {: .label .label-red }
 
+* * *
 # 4.0 Getting your hardware and software  ready
 
 What you will need:
@@ -13,6 +14,7 @@ What you will need:
 - **air-gapped** computer ([not connected to the internet](https://en.wikipedia.org/wiki/Air_gap_(networking)))
 - **networked** smartphone
 
+* * *
 You will need to install the following into your **air-gapped computer**:
 
 1. [`keysmith`](https://github.com/dfinity/keysmith) 

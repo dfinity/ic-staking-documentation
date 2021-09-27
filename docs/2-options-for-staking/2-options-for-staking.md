@@ -7,16 +7,12 @@ permalink: /2-options-for-staking/
 Warning: documentation in beta
 {: .label .label-red }
 
-# 2. Easiest or Safest
-{: .no_toc }
-
-## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-
+* * *
 # Options: Easiest or Safest?
 
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
@@ -34,6 +30,7 @@ Below is a summary of the range of options availale to you depending on your com
 
 This chapter summarizes your self-custody options from **easiest** to **safest**.
 
+* * *
 ## Easiest Option
 
  Use [Internet Identity](https://medium.com/dfinity/internet-identity-the-end-of-usernames-and-passwords-ff45e4861bf7) with the [NNS frontend dapp](https://nns.ic0.app/)
@@ -47,6 +44,7 @@ This chapter summarizes your self-custody options from **easiest** to **safest**
 
 If you choose this, go to [Chapter 3: Easiest staking option](../3-easiest-staking-option/3-easiest-staking-option.md)
 
+* * *
 ## Safest Option
 
 Use your `seed phrase` directly with a few options for self-custody tools.

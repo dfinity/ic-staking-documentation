@@ -1,19 +1,18 @@
 ---
 layout: default
-title: 4.2 Create neuron with dissolve delay
+title: 4.2 Create neuron with dissolve delay (Part 2)
 parent: 4. Safest Staking Option
 ---
 
-# 4.2 Create a **neuron** with a **dissolve delay** Part 2: Bridge the air gap
-{: .no_toc }
-
-## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-# 4.2 Create a **neuron** with a **dissolve delay** Part 2: Bridge the air gap
+* * *
+# 4.2 Create a **neuron** with a **dissolve delay** 
+## Part 2 of 3: Bridge the air-gap
+
 
 This section walks you through the tools necessary to bridhge the air gap between your **air-gapped computer** and the **networked smartphone**.
 
@@ -25,7 +24,7 @@ Since your **air-gapped computer** is not connected to the internet, we will use
 
 ![image](../assets/images/qr-code-scan-2.png)
 
-
+* * *
 ### 4.2.3a Convert the `message.json` into QR codes
 
 `message.json` file actually has multiple messages for the Internet Computer, so you will run a script that will put you in the following loop:
@@ -39,12 +38,13 @@ The command will break up all the messages in `message.json` into QR codes you w
 
 ![image](../assets/images/qr-code.png)
 
-
+* * *
 ### 4.2.3b Navigate your smartphone to `IC Transaction Scanner` and scan the QR code: 
 
 On your **networked smartphone**, navigate to URL for `IC Transaction Scanner`: [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
 
-### **4.2.3c Scan QR code from your air-gapped terminal**
+* * *
+### 4.2.3c Scan QR code from your air-gapped terminal
 
 We will scan the QR code so your **networked smartphone** sends the message written in the **air-gapped computer.**
 
@@ -58,7 +58,7 @@ We will scan the QR code so your **networked smartphone** sends the message writ
 <!-- ![image](../assets/images/ic-transaction-scan-send.png) -->
 <img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
 
-
+* * *
 ### 4.2.3d Press ENTER on terminal to get the next QR code
 
 Repeat step 4.2.3c if there are any other QR codes
@@ -85,7 +85,7 @@ For example, neuron `5241875388871980017` [https://ic.rocks/neuron/5241875388871
 
 ![image](../assets/images/ic-rocks-neuron.png)
 
-
+* * *
 By now we should have the following:
 
 | Artifact | Example | Security| Final outcome|

@@ -1,23 +1,21 @@
 ---
 layout: default
-title: 4.2 Create neuron with dissolve delay
+title: 4.2 Create neuron with dissolve delay (Part 3)
 parent: 4. Safest Staking Option
 ---
 
-# 4.2 Create a **neuron** with a **dissolve delay** Part 3: Set the dissolve delay
-
-{: .no_toc }
-
-## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-# 4.2 Create a **neuron** with a **dissolve delay** Part 3: Set the dissolve delay
+* * *
+# 4.2 Create a **neuron** with a **dissolve delay** 
+## Part 3 of 3: Set dissolve delay
 
 Now that you have a neuron, this section adds a dissolve delay to that neuron. Your ICP are not staked until the neuron has a dissolve delay.
 
+* * *
 ## 4.2.4 Send a message to the neuron to “start dissolve delay”
 
 To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use a command of the form:
@@ -27,7 +25,7 @@ To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use
 $ quill --pem-file private.pem neuron-manage $NEURON_ID --additional-dissolve-delay-seconds $SECONDS
 ```
 
-This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in **4.2.2**. In this case, we are adding `$SECONDS` seconds to the delay time.
+This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in 4.2.2. In this case, we are adding `$SECONDS` seconds to the delay time.
 
 The following table gives typical values for `$SECONDS`:
 
@@ -36,7 +34,7 @@ The following table gives typical values for `$SECONDS`:
 - Four years: 126230400
 - Eight years: 252460800
 
-In our example, we will start a **1-year dissolve**, so we will use `quill` to craft the following command:
+In our example, we will start a 1-year dissolve, so we will use `quill` to craft the following command:
 
 **Inside air-gapped computer**
 
@@ -48,6 +46,6 @@ $ quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-di
 $ bash ./quill-qr.sh < message.json
 ```
 
-Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with **`IC Transaction Scanner`** on your phone as in **4.2.3**
+Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with `IC Transaction Scanner` on your phone as in 4.2.3.
 
 ![image](../assets/images/qr-code-scan-2.png)
