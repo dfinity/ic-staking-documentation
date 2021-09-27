@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2. Options for staking
+title: 2. Options for Staking
 nav_order: 3
 permalink: /2-options-for-staking/
 ---

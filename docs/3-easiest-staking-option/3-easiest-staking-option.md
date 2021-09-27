@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Easiest staking option
+title: 3. Easiest Staking Option
 nav_order: 4
 # has_children: true
 permalink: docs/3-easiest-staking-option
@@ -25,19 +25,25 @@ If you choose to stake with the **easiest option**, this chapter is for you.
 
 ### 1. How do you authenticate to Internet Identity?
 
-Internet Identity does **not** use passwords and usernames to log in. [Internet Identity](https://identity.ic0.app/) takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (ssuch as a phone, yuibkey, etc...) instead of "something you know" (like a password).
+[Internet Identity](https://identity.ic0.app/) does **not** use passwords and usernames to log in. [Internet Identity](https://identity.ic0.app/) takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (e.g a phone, yuibkey, etc...) instead of "something you know" (e.g. a password).
 
 From the point of view a user, a user would use of the following methods to authenticate:
 
-**Computer**
+**1. Computers**
 
-* Yubikey
-* Thumb print
+a. Yubikey 
+    - with computers with USB ports
 
-**Phone**
+b. Thumb print 
+    - with computers with electronic fingerprint recognition features like [Touch ID](https://en.wikipedia.org/wiki/Touch_ID)
 
-* Face ID
-* Thumb print
+**2. Smartphones**
+
+a. Face ID 
+    - for smartphones with with facial recognition systems
+
+b. Thumb print 
+    - for  computers with electronic fingerprint recognition features like [Touch ID](https://en.wikipedia.org/wiki/Touch_ID)
 
 ### 2. If I lose my device, can I still use Internet Identity?
 
