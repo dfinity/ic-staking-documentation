@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1. Basic Steps and Concepts
-nav_order: 2
+nav_order: 2    
 permalink: /basic-steps-concepts/
 ---
 
