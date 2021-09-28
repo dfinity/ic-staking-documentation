@@ -6,15 +6,23 @@ You can see the GitHub page here: https://dfinity.github.io/ic-staking-documenta
 
 ## How to contribute
 
-The GitHub page is composed of pages in the `/docs` directory. Editing the copy is very easy.
+The GitHub page is composed of pages in the `/docs` directory. Editing the copy is just markdown.
 
 ## How to run this locally
 
-To run this locally, you should follow the instructions at [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+To run this locally, you should follow the instructions at .
+
+1. Pull down repo
+2. Setup Jekyll and other Gems necessary as denoted here [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+3. Navigate to /docs
+4. Run 
+```bash 
+$ bundle exec jekyll serve
+``` 
 
 ## How to deploy changes
 
-The GitHub page is tied to the branch `gh-pagess`. Anything that is merged to `gh-pages` branch automatically becomes deploys to the GitHub page.
+The GitHub page is tied to the branch `gh-pages`. Anything that is merged to `gh-pages` branch automatically becomes deploys to the GitHub page: https://dfinity.github.io/ic-staking-documentation/
 
 ## How to edit the styling
 
