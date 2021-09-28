@@ -18,6 +18,27 @@ Warning: documentation in beta
 
 If you choose to stake with the **easiest option**, this chapter is for you.
 
+To recap, the easiest staking option is a few steps:
+
+In **networked smartphone** or **networked computer**:
+
+1. Log into [NNS Frontend Dapp](https://nns.ic0.app/)
+    
+    a. Make an [Internet Identity](https://identity.ic0.app/) if you not already have one
+    b. Highly recommend you add multiple devices
+
+2. Within NNS Frontend dapp, navigate to the `ICP` tab. Send ICP to an account.
+    
+    a. Account should look something like this `723cd441238da744a097c3a20f8f4050d8355afb46fe12a1428a63996c37d918`
+
+3. Navigate to the `neuron` tab
+
+4. Click `stake neuron` button and follow instructions.
+
+5. That's it!
+
+You have successfully staked using the NNS Frontend dapp.
+
 * * *
 ## Decisions you need to make:
 
