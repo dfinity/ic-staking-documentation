@@ -49,24 +49,24 @@ There are various artifacts that can be derived from your `seed phrase`. The dia
 
 ### Red Boxes
 
-* 12-word `seed phrase`
-* `Private key`
+* `seed phrase`
+* `private key`
 
-If you lose these, you lose access to your ICP
-
-If someone gets these, they may take your ICP
+If you lose both of these, you lose access to your ICP. 
+If you have your `seed phrase` you can regenerate your `private key`.
+If someone gets these, they may take your ICP.
 
 ### Yellow Boxes
 
-* `Public Key`
-* `Principal`
-* `Neuron Id`
-* `Account Id`
-* `Neuron Account`
+* `public key`
+* `principal`
+* `neuron id`
+* `account id`
+* `neuron account`
 
-If you lose these, you can regenerate them from your `seed phrase`
-
-If someone gets these, they can see how ICP you have or your transactions
+If you lose these, you can regenerate them from your `seed phrase`.
+If someone gets these, they can see how ICP you have or your transactions.
+Knowledge of these artifacts does not give you control over the ICP.
 
 * * *
 ## Decisions you need to make
