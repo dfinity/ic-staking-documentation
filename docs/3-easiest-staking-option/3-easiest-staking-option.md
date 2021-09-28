@@ -18,9 +18,12 @@ Warning: documentation in beta
 
 If you choose to stake with the **easiest option**, this chapter is for you. It is a very short chapter.
 
-To recap, the easiest staking option is a few steps:
+* * *
+## 5 steps to stake 
 
-In **networked smartphone** or **networked computer**:
+To recap, the easiest staking option is via the NNS Frontend Dapp.
+
+In **networked smartphone** or **networked computer**, do the following:
 
 1. Log into [NNS Frontend Dapp](https://nns.ic0.app/)
     
