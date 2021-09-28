@@ -17,20 +17,25 @@ What you will need:
 * * *
 You will need to install the following into your **air-gapped computer**:
 
-1. [`keysmith`](https://github.com/dfinity/keysmith) 
+1. `keysmith`
+    - [https://github.com/dfinity/keysmith)](https://github.com/dfinity/keysmith) 
     - required to generate keys
 
-2. [`openSSSL`](https://wiki.openssl.org/index.php/Binaries) 
+2. `openSSSL`
+    - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
     - required by `quill`
 
-3. [`quill`](https://github.com/dfinity/quill)
+3. `quill`
+   - [https://github.com/dfinity/quill](https://github.com/dfinity/quill)
     - you will use this to craft messages like "create neuron" for the Internet Computer
 
-4. [`qrencode`](https://github.com/fukuchi/libqrencode) 
+4. `qrencode`(https://github.com/fukuchi/libqrencode) 
+    - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 
     - Generates QR codes for bridging the air gap
     - Tip: if you have Homebrew, you can install via `brew install qrencode`
 
-5. [`jq`](https://github.com/stedolan/jq) 
+5. `jq`
+    - [https://github.com/stedolan/jq](https://github.com/stedolan/jq) 
     - Required for creating multiple QR codes
     - Tip: if you have Homebrew, you can install via `brew install jq`
 

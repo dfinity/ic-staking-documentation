@@ -17,7 +17,7 @@ To stake, these steps will not change, but the tools, commands, or methods you u
 2. Create a **neuron** with a **dissolve delay**
 3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)
 
-**Once you stake, you can do any of the following three activities:**
+**Once you stake, you can do any of the following four activities:**
 
 1. Set your neuron to ***vote or follow***
 2. Collect your neuron’s ***rewards***
