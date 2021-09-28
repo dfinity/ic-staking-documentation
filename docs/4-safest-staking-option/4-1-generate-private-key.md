@@ -7,7 +7,7 @@ parent: 4. Safest Staking Option
 * * *
 # 4.1 Generate a **private key**
 
-*This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
+*This step would only happen once per cold wallet. For most people, this means you will do this step only once.*
 
 Everything in this section occurs within your **air-gapped computer.**
 

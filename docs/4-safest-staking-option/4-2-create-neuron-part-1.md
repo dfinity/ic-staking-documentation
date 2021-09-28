@@ -13,7 +13,7 @@ parent: 4. Safest Staking Option
 # 4.2 Create a **neuron** with a **dissolve delay**
 ## Part 1 of 3: Air-gapped computer
 
-*This step would only happen once 1️⃣ per neuron.*
+*This step would only happen once per neuron.*
 
 *Note: To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 

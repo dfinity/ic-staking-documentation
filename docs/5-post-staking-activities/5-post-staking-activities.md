@@ -24,7 +24,7 @@ You can now do a few things:
 * * *
 ## 5.1. Set your neuron to ***vote or follow***
 
-*This step could happen many times 🔁 per neuron.*
+*This step could happen many times per neuron.*
 
 **Voting is critical** for staking because only neurons which vote receive rewards.
 
@@ -62,7 +62,7 @@ Currently, voting is not possible with `quill`.
 * * *
 ## 5.2. Collect your neuron’s ***rewards***
 
-*This step could happen many times 🔁 per neuron.*
+*This step could happen many times per neuron.*
 
 a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
@@ -142,7 +142,7 @@ $ bash ./quill-qr.sh < message.json
 * * *
 ## 5.3 ***Dissolve*** your neuron to get the ICP locked inside
 
-*This step could happen many times 🔁 per neuron.*
+*This step could happen many times per neuron.*
 
 a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 

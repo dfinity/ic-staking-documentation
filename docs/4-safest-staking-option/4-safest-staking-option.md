@@ -28,15 +28,15 @@ As a reminder, there are three basic steps (whose implementation depend on the t
 
 **1. Generate a private key** 
 
-*This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
+*This step would only happen once per cold wallet. For most people, this means you will do this step only once.*
 
 **2. Create a neuron with a dissolve delay** 
 
-*This step would only happen once 1️⃣ per cold wallet. For most people, this means you will do this step only once.*
+*This step would only happen once per cold wallet. For most people, this means you will do this step only once.*
 
 **3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)**
 
-*This step could happen many times 🔁 per neuron.*
+*This step could happen many times per neuron.*
 
 This chapter explains how to accomplish these steps given one self-custodies their own `seed phrase`.
 

@@ -7,7 +7,7 @@ parent: 4. Safest Staking Option
 * * *
 ## 4.3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)
 
-*This step could happen many times 🔁 per neuron.*
+*This step could happen many times per neuron.*
 
 Once you are confident your neuron is properly created, to “top up” an existing neuron, we will use the same command like the one in "4.2.2 Create a Neuron" (likely with a different `$AMOUNT` value), at any time.
 
