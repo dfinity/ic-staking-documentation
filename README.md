@@ -2,7 +2,7 @@
 
 This is a GitHub page for creating documentation for easy user-facing staking within the Internet Computer. This is intended to be a community-driven set of documents.
 
-You can see the GitHub page here: https://probable-goggles-3dc3d635.pages.github.io/
+You can see the GitHub page here: https://dfinity.github.io/ic-staking-documentation/
 
 ## How to contribute
 
