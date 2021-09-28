@@ -16,7 +16,7 @@ Warning: documentation in beta
 * * *
 # Easiest option: How to stake
 
-If you choose to stake with the **easiest option**, this chapter is for you.
+If you choose to stake with the **easiest option**, this chapter is for you. It is a very short chapter.
 
 To recap, the easiest staking option is a few steps:
 
