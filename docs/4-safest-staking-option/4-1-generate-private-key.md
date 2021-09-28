@@ -44,12 +44,12 @@ $ keysmith account
 > 77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da 
 ```
 
-You should write the `ledger account number` down.
+You should write the `ledger account number` down so you can use in he next chapter in step **4.2.1.**
 
 * * *
 ## 4.1.4 Secure your `seed phrase` properly
 
-Now that you have generated your `seed phrase` and your keys, you should write down the seed on paper or store it in some kind of steel wallet such as Bill Fodl.
+Now that you have generated your `seed phrase` and your keys, you need to write down and store your seed phrase so that you could recover your private key in case you lost it.
 
 To properly store your `seed phrase` see [where to store your seed phrase](../docs/safest-staking-option#1-where-to-store-your-seed-phrase)
 
@@ -76,10 +76,10 @@ In this section, we did a few things, so let’s recap what we did and where we 
 
 **If you do not end up with a table that looks like the one below, do not continue**. Try again, check out support, or submit a question to support.
 
-| Artifact | Example1 | Security| Final outcome|
-| :------------- | :------------- | :------------- | :------------- |
-| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via `keysmith` in this section in 4.1.1  <br />• You will have properly stored in 4.1.4 <br />• You deleted this from your computer in 4.1.5|
-| `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via `keysmith` in this section in 4.1.2. |
-| `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 4.1.3. This can be stored anywhere.
+| Artifact | Example1 | Security| Final outcome| Storage |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
+| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via `keysmith` in this section in 4.1.1  <br />• You will have properly stored in 4.1.4 <br />• You deleted this from your computer in 4.1.5| on paper or Bill Fodl, possibly kept in a safe |
+| `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via `keysmith` in this section in 4.1.2. | to remain on air-gapped computer |
+| `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 4.1.3. This can be stored anywhere. | wherever you like |
 
 
