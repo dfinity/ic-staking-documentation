@@ -16,7 +16,7 @@ parent: 4. Safest Staking Option
 Now that you have a neuron, this section adds a dissolve delay to that neuron. Your ICP are not staked until the neuron has a dissolve delay.
 
 * * *
-## 4.2.4 Send a message to the neuron to “start dissolve delay”
+## 4.2.5 Send a message to the neuron to “start dissolve delay”
 
 To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use a command of the form:
 
@@ -36,7 +36,7 @@ The following table gives typical values for `$SECONDS`:
 
 In our example, we will start a 1-year dissolve, so we will use `quill` to craft the following command:
 
-**Inside air-gapped computer**
+**On the air-gapped computer**
 
 ```bash
 // Add the dissolve delay

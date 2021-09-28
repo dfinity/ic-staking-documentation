@@ -84,12 +84,15 @@ For example, neuron `5241875388871980017` [https://ic.rocks/neuron/5241875388871
 ![image](../assets/images/ic-rocks-neuron.png)
 
 * * *
-By now we should have the following:
+## 4.2.4 Outcome
 
-| Artifact | Example | Security| Final outcome|
-| ------------- | ------------- |
-| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You can keep this if you want to be able to generate your private key again. | • You created this via Keysmith in this section in 4.1.1.  <br />• You will have properly stored in 4.1.4<br />• You deleted this from your computer in 4.1.5|
-| `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via Keysmith in this section in 4.1.2. |
-| `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can go through steps to get it back with your private key. | • You generate this in 1.3. This can be stored anywhere.|
-| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.2. This can be stored anywhere.|
-| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.3. This can be stored anywhere.
+In this section, we did a few things, so let’s recap what we did and where we should be before moving forward.
+
+**If you do not end up with a table that looks like the one below, do not continue**. Try again, check out support, or submit a question to support.
+
+In addition to the artifacts in [previous section](../4-safest-staking-option/4-2-create-neuron-part-1.md), you should have:
+
+| Artifact | Example | Security| Final outcome| Storage |
+| ------------- | ------------- | | ------------- | | ------------- | | ------------- |
+| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.2. | to remain on air-gapped computer |
+| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.3. | to remain on air-gapped computer |

@@ -16,7 +16,7 @@ Notes:
 - It should print back to you the same Neuron ID as when you first staked it.
 - In our example, we will send the neuron which we called “neuron2” the amount of 42.20 ICP.
 
-**Inside air-gapped computer**
+**On the air-gapped computer**
 
 ```bash
 //Craft message to send 42 ICP to the neuron named "neuron3". Store in "message.json"

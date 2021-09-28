@@ -18,7 +18,7 @@ Once you have `keysmith` and `quill` installed **air-gapped computer** ready, yo
 * * *
 ## 4.1.1 Use `keysmith` to generate a seed text
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 ```bash
 $ keysmith generate -o seed.txt
 ```
@@ -26,7 +26,7 @@ $ keysmith generate -o seed.txt
 * * *
 ## 4.1.2 Use `keysmith` to create a private key and store it in `private.pem` file
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 
 ```bash
 $ keysmith private-key -o private.pem
@@ -37,7 +37,7 @@ $ keysmith private-key -o private.pem
 
 This command will display a long string which is your `ledger account number`. Below, I provide an example of what this may look like.
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 
 ```bash
 $ keysmith account
@@ -63,7 +63,7 @@ Now that the `seed phrase` is properly stored. You should delete it from your co
 
 Remove it with the following command:
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 
 ```bash
 $ rm -vf seed.txt
