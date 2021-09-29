@@ -45,7 +45,7 @@ Currently, voting is not possible with `quill`.
         Where this becomes most useful is in conjunction with the NNS frontend dapp and your Internet Identity. If you log in to the NNS App and visit the Neurons tab, it will display a Principal Id value at the top of that tab. Use that principal id with `quill` to establish the NNS App as a hot key for your neuron:
 
         ```bash
-        $ quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
+        $ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
 
         // Using "message.json", create QR codes you can scan with your phone
         $ bash ./quill-qr.sh < message.json
@@ -76,11 +76,11 @@ Once the amount of your reward is worth 1 ICP or more, you may spawn that "matur
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --spawn$ quill ---pem-file private.pem neuron-manage 5241875388871980017 --spawn > message.json
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --spawn > message.json
 ```
 
 ```bash
-$ quill ---pem-file private.pem neuron-manage 5241875388871980017 --spawn > message.json
+$ target/release/quill ---pem-file private.pem neuron-manage 5241875388871980017 --spawn > message.json
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json
@@ -102,7 +102,7 @@ To sum up, once you've staked your ICP and created a neuron, the typical sequenc
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work.
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --spawn > message.json
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --spawn > message.json
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json
@@ -113,7 +113,7 @@ $ bash ./quill-qr.sh < message.json
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work.
-$ quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --start-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --start-dissolving
 // send message via QR codde app
 
 // Using "message.json", create QR codes you can scan with your phone
@@ -127,7 +127,7 @@ $ bash ./quill-qr.sh < message.json
 ```bash
 
 // 7 days later, disburse the neuron
-$ quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --disburse
+$ target/release/quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --disburse
 // send message via QR codde app
 
 // Using "message.json", create QR codes you can scan with your phone
@@ -153,7 +153,7 @@ b. If you chose the **maximum control staking option**...
 If you determine after some time that you wish to begin dissolving your neuron toward liquidation, you would use the `--start-dissolving` option of the `neuron-manage` command:
 
 ```bash
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --start-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --start-dissolving
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json 
@@ -167,7 +167,7 @@ $ bash ./quill-qr.sh < message.json
 If you determine after some time that you wish to stop dissolving your neuron toward liquidation, you would use the `--stop-dissolving` option of the `neuron-manage` command:
 
 ```bash
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json 
@@ -193,7 +193,7 @@ Use that principal id with `quill` to establish the [NNS frontend dapp](https://
 ```bash
 
 // Add the hot key from the NNS frontend dapp to your self-custodied neuron
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json

@@ -22,7 +22,7 @@ To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
-$ quill --pem-file private.pem neuron-manage $NEURON_ID --additional-dissolve-delay-seconds $SECONDS
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --additional-dissolve-delay-seconds $SECONDS
 ```
 
 This shows the `neuron-manage` subcommand, which is used to manipulate neurons after they have been staked as in 4.2.2. In this case, we are adding `$SECONDS` seconds to the delay time.
@@ -42,7 +42,7 @@ In our example, we will start a 1-year dissolve, so we will use `quill` to craft
 
 ```bash
 // Add the dissolve delay
-$ quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-dissolve-delay-seconds 31536000 > message.json
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-dissolve-delay-seconds 31536000 > message.json
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json

@@ -20,7 +20,7 @@ Notes:
 
 ```bash
 //Craft message to send 42 ICP to the neuron named "neuron3". Store in "message.json"
-$ quill --pem-file private.pem neuron-stake --name neuron3 --amount 42.20 > message.json
+$ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 42.20 > message.json
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json
