@@ -29,10 +29,12 @@ This shows the `neuron-manage` subcommand, which is used to manipulate neurons a
 
 The following table gives typical values for `$SECONDS`:
 
-- Six months: 15768000 (60 seconds * 60 minutes * 24 hours * 182.5 days)   
-- One year: 31536000 (60 seconds * 60 minutes * 24 hours * 365 days) 
-- Four years: 126144000 (60 seconds * 60 minutes * 24 hours * 365 days * 4 years) 
-- Eight years: 252288000 (60 seconds * 60 minutes * 24 hours * 365 days * 8 years) 
+| Length | number |
+| :------------- | :------------- |
+| Six months | 15768000 (60 seconds * 60 minutes * 24 hours * 182.5 days) |
+| One year | 31536000 (60 seconds * 60 minutes * 24 hours * 365 days) |
+| Four years | 126144000 (60 seconds * 60 minutes * 24 hours * 365 days * 4 years)  |
+| Eight years | 252288000 (60 seconds * 60 minutes * 24 hours * 365 days * 8 years)  |
 
 In our example, we will start a 1-year dissolve, so we will use `quill` to craft the following command:
 
