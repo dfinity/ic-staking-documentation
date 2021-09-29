@@ -15,13 +15,18 @@ What you will need:
 - **networked** smartphone
 
 * * *
-You will need to install the following into your **air-gapped computer**:
+You will need to install the following into your **air-gapped computer**. Note
+that if you are using Ubuntu, you can install some of the necessary
+dependencies using the following command:
+```
+sudo apt-get install qrencode jq eog
+```
 
 1. `keysmith`
     - [https://github.com/dfinity/keysmith)](https://github.com/dfinity/keysmith) 
     - You will use this generate important artifatcs like `seed phrase` and `private key`s
 
-2. `openSSSL`
+2. `openssl`
     - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
     - required by `quill`
 
@@ -52,11 +57,16 @@ IFS=$'\n' read -r -d '' -a messages < <( cat - | jq -M 'if . | type != "array" t
 
 for message in "${messages[@]}"
 do
-    echo "$URL/?msg=$(echo "$message" | gzip -c | base64 | tr -d '\n' | sed -e 's/+/%2B/g' -e 's/\//%2F/g' -e 's/=/%3D/g')" | qrencode > qr.png
-    open qr.png
-    echo ENTER TO CONTINUE...
-    read < /dev/tty
-    clear
+    echo "$URL/?msg=$(echo "$message" | gzip -c | base64 | tr -d '\n' | sed -e 's/+/%2B/g' -e 's/\//%2F/g' -e 's/=/%3D/g')" | qrencode -t PNG -o qr.png
+    if [[ ! -x /usr/bin/eog && ! -x /usr/bin/open ]]; then
+        echo "To view QR codes on Linux, please install the 'eog' Gnome image viewer"
+        exit 1
+    else
+        eog qr.png 2> /dev/null || open qr.png
+        echo ENTER TO CONTINUE...
+        read < /dev/tty
+        clear
+    fi
 done
 ```
 
