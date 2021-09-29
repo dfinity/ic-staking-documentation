@@ -51,7 +51,7 @@ To properly store your `seed phrase` see [where to store your seed phrase](../do
 
 ### 7.1.3 Make sure your seed phrase is properly stored
 
-## 4.1.5 Remove your `seed phrase` from your air-gapped computer
+## 7.1.4 Remove your `seed phrase` from your air-gapped computer
 
 Now that the `seed phrase` is properly stored. You should delete it from your computer before moving forward so no one can use it to recreate your private key.  
 
