@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 3. Easiest Staking Option
+title: 3. Maximums Ease Staking Option
 nav_order: 4
 # has_children: true
-permalink: docs/3-easiest-staking-option
+permalink: docs/3-maximum-ease-staking-option
 ---
 Warning: documentation in beta
 {: .label .label-red }
@@ -14,9 +14,9 @@ Warning: documentation in beta
 {:toc}
 
 * * *
-# Easiest option: How to stake
+# Maximum ease option: How to stake
 
-If you choose to stake with the **easiest option**, this chapter is for you. It is a very short chapter.
+If you choose to stake with the **maximum ease option**, this chapter is for you. It is a very short chapter.
 
 * * *
 ## 5 steps to stake 

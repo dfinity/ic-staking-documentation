@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.1 Generate private key
-parent: 4. Safest Staking Option
+parent: 4. Maximum Control Staking Option
 ---
 
 * * *

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.2 Create neuron with dissolve delay (Part 1)
-parent: 4. Safest Staking Option
+parent: 4. Maximum Control Staking Option
 ---
 
 {: .no_toc .text-delta }

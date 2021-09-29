@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 4. Safest Staking Option
+title: 4. Maximum Control Staking Option
 nav_order: 5
 has_children: true
-permalink: docs/safest-staking-option
+permalink: docs/maximum-control-staking-option
 ---
 Warning: documentation in beta
 {: .label .label-red }
@@ -17,7 +17,7 @@ Warning: documentation in beta
 {:toc}
 
 * * *
-# Safest option: How to stake
+# Maximum control option: How to stake
 
 This chapter is for people who want to have as much control of their ICP as possible by custodying their own `seed phrase` and do not mind more technical hurdles to have maximum control. 
 

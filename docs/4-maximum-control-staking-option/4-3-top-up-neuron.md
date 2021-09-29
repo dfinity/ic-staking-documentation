@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.3 Add more ICP to the Neuron
-parent: 4. Safest Staking Option
+parent: 4. Maximum Control Staking Option
 ---
 
 * * *

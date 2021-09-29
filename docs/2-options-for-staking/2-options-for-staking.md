@@ -13,7 +13,7 @@ Warning: documentation in beta
 {:toc}
 
 * * *
-# Options: Easiest or Safest?
+# Options: Maximum ease or maximum control?
 
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
 
@@ -35,7 +35,7 @@ Examples if you prefer to have maximum control of your keys.
 This chapter summarizes your self-custody options from **easiest** to **safest**.
 
 * * *
-## Easiest Option
+## Maximum Ease Option
 
  Use [Internet Identity](https://medium.com/dfinity/internet-identity-the-end-of-usernames-and-passwords-ff45e4861bf7) with the [NNS frontend dapp](https://nns.ic0.app/)
 
@@ -49,13 +49,14 @@ This chapter summarizes your self-custody options from **easiest** to **safest**
 If you choose this, go to [Chapter 3: Easiest staking option](../3-easiest-staking-option/3-easiest-staking-option.md)
 
 * * *
-## Safest Option
+## Maximum Control Option
 
 Use your `seed phrase` directly with a few options for self-custody tools.
 
 ### Traits
 
 * This option requires more technical understanding 
+* You have most control over your ICP.
 * This is the *safest* option from a software point of view because you are relying on less software surface area, but it is the *riskiest* from a human point of view in that it puts the risk of your `seed phrase` and `private key` custody on you.
 * Ideal for people who want as much control over their ICP as possible
 

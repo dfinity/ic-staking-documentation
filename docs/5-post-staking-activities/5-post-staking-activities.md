@@ -28,9 +28,9 @@ You can now do a few things:
 
 **Voting is critical** for staking because only neurons which vote receive rewards.
 
-a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
+a. If you chose the **maximum ease staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
-b. If you chose the **safest staking option**...
+b.If you chose the **maximum control staking option**...
 
 Currently, voting is not possible with `quill`. 
 
@@ -64,9 +64,9 @@ Currently, voting is not possible with `quill`.
 
 *This step could happen many times per neuron.*
 
-a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
+a. If you chose the **maximum ease staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
-b. If you chose the **safest staking option**...
+b. If you chose the **maximum control staking option**...
 
 ### 5.2.1 Command to “spawn rewards” from your neuron
 
@@ -94,9 +94,9 @@ This command will display the neuron id of the newly created reward neuron. It w
 
 ### 5.2.2 Reward harvesting
 
-a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
+a. If you chose the **maximum ease staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
-b. If you chose the **safest staking option**...
+b. If you chose the **maximum control staking option**...
 
 To sum up, once you've staked your ICP and created a neuron, the typical sequence of commands you will run, say monthly, to harvest rewards would be the following:
 
@@ -144,9 +144,9 @@ $ bash ./quill-qr.sh < message.json
 
 *This step could happen many times per neuron.*
 
-a. If you chose the **easiest staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
+a. If you chose the **maximum ease staking option**... go to the [NNS frontend dapp](https://nns.ic0.app/).
 
-b. If you chose the **safest staking option**...
+b. If you chose the **maximum control staking option**...
 
 ### 5.3.1 Command to start the dissolve process.
 
@@ -180,9 +180,9 @@ $ bash ./quill-qr.sh < message.json
 
 A hot key is a lot like a read-only view of a neuron, in that it lets you use a different controller to see the balance, maturity, dissolve delay and other details of a neuron. Where this becomes most useful is in conjunction with the [NNS frontend dapp](https://nns.ic0.app/) and your [Internet Identity](https://identity.ic0.app/).
 
-a. If you chose the **easiest staking option**...  you do not need this, you can already view it on the [NNS frontend dapp](https://nns.ic0.app/).
+a. If you chose the **maximum ease staking option**...   you do not need this, you can already view it on the [NNS frontend dapp](https://nns.ic0.app/).
 
-b. If you chose the **safest staking option**...
+b. If you chose the **maximum control staking option**...
 
 Log in to the [NNS frontend dapp](https://nns.ic0.app/) and visit the Neurons tab, it will display a Principal Id value at the top of that tab. 
 
