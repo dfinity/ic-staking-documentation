@@ -3,7 +3,7 @@ layout: default
 title: 4. Maximum Control Staking Option
 nav_order: 5
 has_children: true
-permalink: docs/maximum-control-staking-option
+permalink: docs/4-maximum-control-staking-option
 ---
 Warning: documentation in beta
 {: .label .label-red }

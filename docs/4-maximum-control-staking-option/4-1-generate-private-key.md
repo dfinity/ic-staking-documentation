@@ -51,7 +51,7 @@ You should write the `ledger account number` down so you can use in he next chap
 
 Now that you have generated your `seed phrase` and your keys, you need to write down and store your seed phrase so that you could recover your private key in case you lost it.
 
-To properly store your `seed phrase` see [where to store your seed phrase](../docs/maximum-control-staking-option#1-where-to-store-your-seed-phrase)
+To properly store your `seed phrase` see [where to store your seed phrase](../docs/4-maximum-control-staking-option#1-where-to-store-your-seed-phrase)
 
 
 ***NOTE: Do not go to step 4.1.5 until you properly store it.***

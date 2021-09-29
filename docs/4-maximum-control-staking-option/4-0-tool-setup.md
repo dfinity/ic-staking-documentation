@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4.0 Setting up your tools
-parent: 4. Safest Staking Option
+parent: 4. Maximum Control Staking Option
 ---
 Warning: documentation in beta
 {: .label .label-red }
