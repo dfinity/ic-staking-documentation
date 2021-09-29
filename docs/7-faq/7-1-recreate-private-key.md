@@ -16,18 +16,32 @@ If you lose your privaye key you can recreate it so long as you still have your 
 
 Retrieve your seed phrase from where you previously stored it and store it on your **air-gapped computer** in a file called `seed.txt`.
 
-Note: Supppose your `seed phrase` was originally: `wage roast present easy mobile olympic panda double ready unveil knock stage`, from a cryptography point of view, you technically only need the first four characters of every word. That is why storage solutions like the Bill Fodl only store first four characters of every word so it looks like this: `wage roas pres easy mobi olym pand doub read unve knoc stag`.
+From a cryptography point of view, you technically only need the first four characters of every word in your seed phrases. That is why storage solutions like the Bill Fodl only store first four characters of every word.
 
-However, `keysmith` does not quite know that yet, so you need to recreate the original `wage roast present easy mobile olympic panda double ready unveil knock stage` from the stored `wage roas pres easy mobi olym pand doub read unve knoc stag`. You can do that by using this key: https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
+To give a concrete example, supppose your `seed phrase` from `keysmith` was originally `wage roast present easy mobile olympic panda double ready unveil knock stage`. When you store it in Bill Fodl, you will actually only store the first four characters of each word like this: `wage roas pres easy mobi olym pand doub read unve knoc stag`.
+
+In short, from a cryptography POV,
+
+`wage roast present easy mobile olympic panda double ready unveil knock stage`
+
+and
+
+`wage roas pres easy mobi olym pand doub read unve knoc stag` 
+
+will generate the same private key.
+
+However, `keysmith` does not quite know that (at the time of this writing), so when using `keysmith` to recreate your `private key` you need to recreate the original `wage roast present easy mobile olympic panda double ready unveil knock stage` from the stored `wage roas pres easy mobi olym pand doub read unve knoc stag`. You can do that by using using this list of BIP-39 words: https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
 
 
 ## 7.1.2 Execute commands
+
+Now that you have a `seed.txt` with the original `seed phrase`, you can run this command in the directory where `seed.txt` exists.
 
 ```bash
 $ keysmith private-key -o private.pem
 ```
 
-You will now have a file titled `private.pem` with your private key.
+You will now have a file titled `private.pem` with your `private key`.
 
 ## 7.1.3 Secure your `seed phrase` properly
 
