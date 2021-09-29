@@ -18,14 +18,18 @@ Warning: documentation in beta
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
 
 Below is a summary of the range of options availale to you depending on your comfort level.
-
-<img src="../assets/images/staking-options.png" alt="drawing"/>
+<img src="../assets/images/want-max-control-of-keys.png" alt="drawing"/>
 *Fig. 1: staking options*
 
-**This documentation is for people who choose self-custody.**
+Examples if you prefer to have a third party custody your keys.
+<img src="../assets/images/3rd-party-solutions.png" alt="drawing"/>
+*Fig. 2: third party solutions*
 
-<img src="../assets/images/self-custody-staking-options.png" alt="drawing"/>
-*Fig. 2: self-custody staking options*
+Examples if you prefer to have maximum control of your keys.
+<img src="../assets/images/self-custody-staking-options-2.png" alt="drawing"/>
+*Fig. 3: self-custody staking options*
+
+**This documentation is for people who choose self-custody.**
 
 
 This chapter summarizes your self-custody options from **easiest** to **safest**.
