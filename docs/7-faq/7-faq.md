@@ -10,4 +10,3 @@ Warning: documentation in beta
     
 # FAQs
  
- 7.1 How to recreate a private key

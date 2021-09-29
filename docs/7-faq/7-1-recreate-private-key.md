@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 7.1 Recreate a private key
+title: 7.1 How to recreate a private key
 # has_children: true
 parent: 7. FAQ
 ---
