@@ -19,7 +19,7 @@ You will need to install the following into your **air-gapped computer**:
 
 1. `keysmith`
     - [https://github.com/dfinity/keysmith)](https://github.com/dfinity/keysmith) 
-    - required to generate keys
+    - You will use this generate important artifatcs like `seed phrase` and `private key`s
 
 2. `openSSSL`
     - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
@@ -28,6 +28,8 @@ You will need to install the following into your **air-gapped computer**:
 3. `quill`
    - [https://github.com/dfinity/quill](https://github.com/dfinity/quill)
     - you will use this to craft messages like "create neuron" for the Internet Computer
+    - You can install it by downloading the binary for your operating system or by cloning and compiling the code
+    - note that once installed, the command to execute is `target/release/quill` 
 
 4. `qrencode`(https://github.com/fukuchi/libqrencode) 
     - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 
@@ -40,6 +42,8 @@ You will need to install the following into your **air-gapped computer**:
     - Tip: if you have Homebrew, you can install via `brew install jq`
 
 6. Copy and paste the following bash script into a file named `quill-qr.sh`:
+
+Warning: Only tested on MacOSX and Linux.
 
 ```bash
 #!/usr/bin/env bash
