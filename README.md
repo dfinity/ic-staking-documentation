@@ -4,6 +4,8 @@ This is a GitHub page for creating documentation for easy self-custody staking w
 
 You can see the GitHub page here: https://dfinity.github.io/ic-staking-documentation/
 
+(@dprats note: the code is deployed as a github page solely to maximize public/community development + deploy. This could easily be a canister smart contract as well. That will be a good next iteraton and I would love to deploy it as a canister)
+
 * * *
 ## Relevant background and reading
 
