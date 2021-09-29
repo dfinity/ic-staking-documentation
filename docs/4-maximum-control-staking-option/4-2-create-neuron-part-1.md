@@ -13,11 +13,11 @@ parent: 4. Maximum Control Staking Option
 # 4.2 Create a **neuron** with a **dissolve delay**
 ## Part 1 of 3: Air-gapped computer
 
-*This step would only happen once per neuron.*
+*This step is only done once per neuron.*
 
 *Note: To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
-This section assumess you succesffully installed the the QR tools on your **air-gapped computer** from 4.0.
+This section assumess you successfully installed the the QR tools on your **air-gapped computer** from 4.0.
 
 In this section, we need to "bridge the air gap." This means that we will continue to perform the sensitive operations within the **air-gapped computer**, but we will use a **networked smartphone**'s QR code scanner to send the messages from **the air-gapped computer** to the Internet Computer.
 
@@ -26,9 +26,9 @@ In this section, we need to "bridge the air gap." This means that we will contin
 * * *
 ## 4.2.1 Send ICP to your `ledger account number`
 
-This account number lives in the Ledger canister that maintains the ICP addresses for the entire network. This account number is analogous to "addresses" in other blockchains. You need to send the ICP you want to stake to the `ledger account number`. In our case, the `ledger account number` from 4.1 was `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da` so that is what we woud use.
+This account number lives in the Ledger canister that maintains the ICP addresses for the entire network. This account number is analogous to "addresses" in other blockchains. You need to send the ICP you want to stake to the `ledger account number`. In our case, the `ledger account number` from 4.1 was `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da` so that is the address we will use.
 
-To create a neuron, you need to stake a minimum of 1 ICP. Anything lesss will *not* successfully create a neuron.
+To create a neuron, you need to stake a minimum of 1 ICP. Anything less will *not* create a neuron.
 
 **If you cannot send ICP to your ledger account number, do not continue.** Try again, check out support, or submit a question to support.
 

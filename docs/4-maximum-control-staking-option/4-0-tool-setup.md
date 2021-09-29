@@ -18,28 +18,27 @@ What you will need:
 You will need to install the following into your **air-gapped computer**:
 
 1. `keysmith`
-    - [https://github.com/dfinity/keysmith)](https://github.com/dfinity/keysmith) 
+    - [https://github.com/dfinity/keysmith](https://github.com/dfinity/keysmith) 
     - You will use this generate important artifatcs like `seed phrase` and `private key`s
 
 2. `openSSSL`
     - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
-    - required by `quill`
+    - Required by `quill`
 
 3. `quill`
    - [https://github.com/dfinity/quill](https://github.com/dfinity/quill)
-    - you will use this to craft messages like "create neuron" for the Internet Computer
-    - You can install it by downloading the binary for your operating system or by cloning and compiling the code
-    - note that once installed, the command to execute is `target/release/quill` 
+    - You will use this to craft messages like "create neuron" for the Internet Computer
+    - You can install it by downloading the binary for your operating system; or by cloning and compiling the code (note that once compiled, the command to execute is `target/release/quill`) 
 
 4. `qrencode`(https://github.com/fukuchi/libqrencode) 
     - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 
     - Generates QR codes for bridging the air gap
-    - Tip: if you have Homebrew, you can install via `brew install qrencode`
+    - Tip: package managers make it easy to install, for instance if you have Homebrew, you can install via `brew install qrencode`
 
 5. `jq`
     - [https://github.com/stedolan/jq](https://github.com/stedolan/jq) 
     - Required for creating multiple QR codes
-    - Tip: if you have Homebrew, you can install via `brew install jq`
+    - Tip: package managers make it easy to install, for instance if you have Homebrew, you can install via `brew install jq`
 
 6. Copy and paste the following bash script into a file named `quill-qr.sh`:
 
