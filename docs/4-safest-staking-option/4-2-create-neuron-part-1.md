@@ -37,7 +37,7 @@ To create a neuron, you need to stake a minimum of 1 ICP. Anything lesss will *n
 
 You will use `quill`'s  `neuron-stake` command of the form:
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
@@ -50,7 +50,7 @@ The `$AMOUNT` should not include the transaction fee, but remember that it will 
 
 Here is the same command with the fields `$NAME` (“neuron3”) and `$AMOUNT` (1.01) filled out, but you should choose your own fields.
 
-Inside the **air-gapped computer**:
+On the **air-gapped computer**:
 
 ```bash
 // Create the message that tells IC "create the neuron" and save it "message.json"
