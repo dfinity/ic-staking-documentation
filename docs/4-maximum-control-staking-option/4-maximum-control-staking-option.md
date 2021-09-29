@@ -85,7 +85,7 @@ b. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
 ### 2. Once you have your `seed phrase`, what **tools** can you stake with?
 
 
-Right now, your safest option is:
+Right now, you option for maximum control is:
 
 **Air gapped** computer + **networked** phone
 

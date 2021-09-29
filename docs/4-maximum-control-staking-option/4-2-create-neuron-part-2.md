@@ -90,7 +90,7 @@ In this section, we did a few things, so let’s recap what we did and where we 
 
 **If you do not end up with a table that looks like the one below, do not continue**. Try again, check out support, or submit a question to support.
 
-In addition to the artifacts in [previous section](../4-safest-staking-option/4-2-create-neuron-part-1.md), you should have:
+In addition to the artifacts in [previous section](../4-maximum-control-staking-option/4-2-create-neuron-part-1.md), you should have:
 
 | Artifact | Example | Security| Final outcome| Storage |
 | ------------- | ------------- | | ------------- | | ------------- | | ------------- |

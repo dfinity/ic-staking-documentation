@@ -32,7 +32,7 @@ Examples if you prefer to have maximum control of your keys.
 **This documentation is for people who choose self-custody.**
 
 
-This chapter summarizes your self-custody options from **easiest** to **safest**.
+This chapter summarizes your self-custody options from **maximum ease** to **maximum control**.
 
 * * *
 ## Maximum Ease Option
@@ -46,7 +46,7 @@ This chapter summarizes your self-custody options from **easiest** to **safest**
 * This is a very common method
 * Ideal for people who want to want the easiest path to control their ICP
 
-If you choose this, go to [Chapter 3: Easiest staking option](../3-easiest-staking-option/3-easiest-staking-option.md)
+If you choose this, go to [Chapter 3: Maximum Ease staking option](../3-maximum-ease-staking-option/3-maximum-ease-staking-option.md)
 
 * * *
 ## Maximum Control Option
@@ -60,6 +60,6 @@ Use your `seed phrase` directly with a few options for self-custody tools.
 * This is the *safest* option from a software point of view because you are relying on less software surface area, but it is the *riskiest* from a human point of view in that it puts the risk of your `seed phrase` and `private key` custody on you.
 * Ideal for people who want as much control over their ICP as possible
 
-If you choose this, go to [Chapter 4: Safest staking option](../4-safest-staking-option/4-safest-staking-option.md)
+If you choose this, go to [Chapter 4: Maximum Control staking option](../4-maximum-control-staking-option/4-maximum-control-staking-option.md)
 
    

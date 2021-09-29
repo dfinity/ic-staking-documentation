@@ -47,7 +47,7 @@ You will now have a file titled `private.pem` with your `private key`.
 
 Now that you have generated your `private key`, you can leave it on your air-gapped computer. Make sure your `seed phrase` is properly sored for the future.
 
-To properly store your `seed phrase` see [where to store your seed phrase](../docs/safest-staking-option#1-where-to-store-your-seed-phrase)
+To properly store your `seed phrase` see [where to store your seed phrase](../docs/maximum-control-staking-option#1-where-to-store-your-seed-phrase)
 
 ### 7.1.3 Make sure your seed phrase is properly stored
 
