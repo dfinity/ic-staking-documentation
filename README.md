@@ -46,7 +46,7 @@ $ bundle exec jekyll serve
 * * *
 ## How to deploy changes
 
-The GitHub page is tied to the branch `gh-pages`. Anything that is merged to `gh-pages` branch automatically becomes deploys to the GitHub page: https://dfinity.github.io/ic-staking-documentation/
+The GitHub page is tied to the branch `main`. Anything that is merged to `main` branch automatically becomes deploys to the GitHub page: https://dfinity.github.io/ic-staking-documentation/
 
 * * *
 ## How to edit the styling
