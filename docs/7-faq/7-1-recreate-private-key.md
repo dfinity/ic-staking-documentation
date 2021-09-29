@@ -28,7 +28,7 @@ and
 
 `wage roas pres easy mobi olym pand doub read unve knoc stag` 
 
-will generate the same private key.
+will generate the exact same `private key`.
 
 However, `keysmith` does not quite know that (at the time of this writing), so when using `keysmith` to recreate your `private key` you need to recreate the original `wage roast present easy mobile olympic panda double ready unveil knock stage` from the stored `wage roas pres easy mobi olym pand doub read unve knoc stag`. You can do that by using using this list of BIP-39 words: https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt
 
