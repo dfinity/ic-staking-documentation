@@ -32,14 +32,28 @@ Since your **air-gapped computer** is not connected to the internet, we will use
 3. You scan QR code with your smartphone
 4. Hit ENTER and return to step 2
 
-The command will break up all the messages in `message.json` into QR codes you will scan sequentially in step 2.2
+The command will break up all the messages in `message.json` into QR codes you will scan sequentially in the following steps.
 
-![image](../assets/images/qr-code.png)
+On the **air-gapped computer**
+```bash
+$ bash ./quill-qr.sh < message.json
+```
+
+![image](../assets/images/qr-code-scan-3.png)
 
 * * *
 ### 4.2.3b Scan the QR code from your air-gapped terminal with your phone's camera 
 
 The QR code will open [`IC Transaction Scanner`](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/) with the data you scanned from the QR code embedded in. Press `Send` the send QR-code generated message to the Internet Computer**. 
+
+<img src="../assets/images/qr-code-scan-from-phone.jpg" alt="drawing" width="300"/>
+
+<img src="../assets/images/ic-transaction-scan.jpg" alt="drawing" width="300"/>
+
+<img src="../assets/images/ic-transaction-scan-send.jpg" alt="drawing" width="300"/>
+
+
+
 
 * * *
 ### 4.2.3c Press ENTER on air-gapped terminal to get the next QR code
