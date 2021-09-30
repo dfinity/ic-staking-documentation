@@ -14,17 +14,28 @@ What you will need:
 - **air-gapped** computer ([not connected to the internet](https://en.wikipedia.org/wiki/Air_gap_(networking)))
 - **networked** smartphone
 
+***
+## Platforms supported
+
+The scope and intent of this document is to support as many platforms as possible, but the ones that have been most tested are:
+* Linux
+* OSX
+
+If you see an issue with Windows machines (or any platform), please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). We want to improve Windows support.
+
 * * *
-You will need to install the following into your **air-gapped computer**. Note
-that if you are using Ubuntu, you can install some of the necessary
-dependencies using the following command:
+## Installing software
+
+You will need to install the following into your **air-gapped computer**. 
+
+Notet hat if you are using Ubuntu, you can install some of the necessary dependencies using the following command:
 ```
 sudo apt-get install qrencode jq eog
 ```
 
 1. `keysmith`
     - [https://github.com/dfinity/keysmith](https://github.com/dfinity/keysmith) 
-    - You will use this generate important artifatcs like `seed phrase` and `private key`s
+    - You will use this generate important artifatcs like `seed phrase` and `private key`
 
 2. `openssl`
     - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
