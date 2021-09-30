@@ -17,11 +17,15 @@ What you will need:
 ***
 ## Platforms supported
 
-The scope and intent of this document is to support as many platforms as possible, but the ones that have been most tested are:
-* Linux
-* OSX
+The scope and intent of this document is to support as many platforms as possible. 
 
-If you see an issue with Windows machines (or any platform), please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). We want to improve Windows support.
+Platforms: but the ones that have been most tested are:
+* **Linux** - Very well tested
+* **OSX (Intel)** - Very well tested
+* **OSX (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861), but very well tested
+* **Windows** - Not very well tested yet.
+
+If you experience any issues, please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). We want to improve.
 
 * * *
 ## Installing software
