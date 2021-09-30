@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3. Maximums Ease Staking Option
+title: 3. Maximum Ease Staking Option
 nav_order: 4
 # has_children: true
 permalink: docs/3-maximum-ease-staking-option

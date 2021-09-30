@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5. Post-staking Acivtivies
+title: 5. Post-staking Activities
 nav_order: 6
 # has_children: true
 permalink: docs/post-staking-activities
