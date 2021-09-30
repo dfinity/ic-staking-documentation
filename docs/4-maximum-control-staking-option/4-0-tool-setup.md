@@ -7,7 +7,7 @@ Warning: documentation in beta
 {: .label .label-red }
 
 * * *
-# 4.0 Getting your hardware and software  ready
+# 4.0 Getting your hardware and software ready
 
 What you will need:
 
