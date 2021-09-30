@@ -48,6 +48,6 @@ $ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 
 $ bash ./quill-qr.sh < message.json
 ```
 
-Open file `message.png.`Send the message to the Internet Computer by scanning `message.png` with `IC Transaction Scanner` on your phone as in 4.2.3.
+Open file `qr.png.`Send the message to the Internet Computer by scanning `qr.png` with your phone. This will navigate you `IC Transaction Scanner` on your phone as in 4.2.3.
 
 ![image](../assets/images/qr-code-scan-2.png)

@@ -53,7 +53,7 @@ Currently, voting is not possible with `quill`.
 
         Now refresh the NNS App in your browser, and you should see your Neuron displayed. You may change the followees and topics for the neuron now in the NNS App interface, but will not be able to dissolve, disburse or spawn.
 
-        Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
+        Open file `qr.png.`Send the message to the Internet Computer by scanning `qr.png` with your phone. This will navigate you `IC Transaction Scanner` on your phone as in 4.2.3.
 
         ![image](../assets/images/qr-code-scan-2.png)
 

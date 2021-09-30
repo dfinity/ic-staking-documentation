@@ -26,6 +26,6 @@ $ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amou
 $ bash ./quill-qr.sh < message.json
 ```
 
-Scan the QR codes on the terminal to send the message to the Internet Computer with **`IC Transaction Scanner`** on your phone as in 2.2.
+Open file `qr.png.`Send the message to the Internet Computer by scanning `qr.png` with your phone. This will navigate you `IC Transaction Scanner` on your phone as in 4.2.3.
 
 ![image](../assets/images/qr-code-scan-2.png)
