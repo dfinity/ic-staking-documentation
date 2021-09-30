@@ -37,29 +37,14 @@ The command will break up all the messages in `message.json` into QR codes you w
 ![image](../assets/images/qr-code.png)
 
 * * *
-### 4.2.3b Navigate your smartphone to `IC Transaction Scanner` and scan the QR code: 
+### 4.2.3b Scan the QR code from your air-gapped terminal with your phone's camera 
 
-On your **networked smartphone**, navigate to URL for `IC Transaction Scanner`: [https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/)
-
-* * *
-### 4.2.3c Scan QR code from your air-gapped terminal
-
-We will scan the QR code so your **networked smartphone** sends the message written in the **air-gapped computer.**
-
-**Scan code**
-
-<!-- ![image](../assets/images/ic-transaction-scan.png) -->
-<img src="../assets/images/ic-transaction-scan.png" alt="drawing" width="300"/>
-
-**Press `Send` to send message to the Internet Computer**
-
-<!-- ![image](../assets/images/ic-transaction-scan-send.png) -->
-<img src="../assets/images/ic-transaction-scan-send.png" alt="drawing" width="300"/>
+The QR code will open [`IC Transaction Scanner`](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/) with the data you scanned from the QR code embedded in. Press `Send` the send QR-code generated message to the Internet Computer**. 
 
 * * *
-### 4.2.3d Press ENTER on terminal to get the next QR code
+### 4.2.3c Press ENTER on air-gapped terminal to get the next QR code
 
-Repeat step 4.2.3c if there are any other QR codes
+On your **air-gapped computer** terminal, press ENTER to get the next QR code to scan, repeat step 4.2.3b until there are no more.
 
 🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
 
