@@ -25,7 +25,7 @@ Platforms: but the ones that have been most tested are:
 * **OSX (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861), but very well tested
 * **Windows** - Not very well tested yet.
 
-If you experience any issues, please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). We want to improve.
+If you experience any issues, please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). These docs are for everyone in the Internet Computer community.
 
 * * *
 ## Installing software
