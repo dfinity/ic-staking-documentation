@@ -50,7 +50,7 @@ sudo apt-get install qrencode jq eog
     - You will use this to craft messages like "create neuron" for the Internet Computer
     - You can install it by downloading the binary for your operating system; or by cloning and compiling the code (note that once compiled, the command to execute is `target/release/quill`) 
 
-4. `qrencode`(https://github.com/fukuchi/libqrencode) 
+4. `qrencode`
     - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 
     - Generates QR codes for bridging the air gap
     - Tip: package managers make it easy to install, for instance if you have Homebrew, you can install via `brew install qrencode`
