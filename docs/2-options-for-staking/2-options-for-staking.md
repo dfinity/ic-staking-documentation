@@ -17,7 +17,7 @@ Warning: documentation in beta
 
 To stake, you have many options, each with different security and usability trade-offs. Choosing your setup is usually where people get most stuck. 
 
-Below is a summary of the range of options availale to you depending on your comfort level.
+Below is a summary of the range of options available to you depending on your comfort level.
 <img src="../assets/images/want-max-control-of-keys.png" alt="drawing"/>
 *Fig. 1: staking options*
 

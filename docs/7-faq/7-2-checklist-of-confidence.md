@@ -11,7 +11,7 @@ Warning: documentation in beta
 
 If you chose to custody your own neuron, tt is very important that you become familiar and confident with the self-custody staking process, because you are in full control of your ICP.
 
-A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installled everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps are the intent of this checklist.s
+A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps are the intent of this checklist.
 
 ## Seed phrase and private keys Setup
 

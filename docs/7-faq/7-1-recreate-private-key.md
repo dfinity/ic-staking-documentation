@@ -9,7 +9,7 @@ Warning: documentation in beta
     
 # 7.1 How to recreate a private key
  
-If you lose your privaye key you can recreate it so long as you still have your `seed phrase.`
+If you lose your private key you can recreate it so long as you still have your `seed phrase.`
 
 
 ## 7.1.1 place your `seed phrase` on your air-gapped computer
@@ -18,7 +18,7 @@ Retrieve your seed phrase from where you previously stored it and store it on yo
 
 From a cryptography point of view, you technically only need the first four characters of every word in your seed phrases. That is why storage solutions like the [Billfodl](https://privacypros.io/products/the-billfodl/) only store first four characters of every word.
 
-To give a concrete example, supppose your `seed phrase` from `keysmith` was originally `wage roast present easy mobile olympic panda double ready unveil knock stage`. When you store it in a [Billfodl](https://privacypros.io/products/the-billfodl/), you will actually only store the first four characters of each word like this: `wage roas pres easy mobi olym pand doub read unve knoc stag`.
+To give a concrete example, suppose your `seed phrase` from `keysmith` was originally `wage roast present easy mobile olympic panda double ready unveil knock stage`. When you store it in a [Billfodl](https://privacypros.io/products/the-billfodl/), you will actually only store the first four characters of each word like this: `wage roas pres easy mobi olym pand doub read unve knoc stag`.
 
 In short, from a cryptography POV,
 
@@ -45,7 +45,7 @@ You will now have a file titled `private.pem` with your `private key`.
 
 ## 7.1.3 Secure your `seed phrase` properly
 
-Now that you have generated your `private key`, you can leave it on your air-gapped computer. Make sure your `seed phrase` is properly sored for the future.
+Now that you have generated your `private key`, you can leave it on your air-gapped computer. Make sure your `seed phrase` is properly stored for the future.
 
 To properly store your `seed phrase` see [where to store your seed phrase](../docs/4-maximum-control-staking-option#1-where-to-store-your-seed-phrase)
 

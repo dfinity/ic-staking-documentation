@@ -32,14 +32,14 @@ If you experience any issues, please let us know via [issues](https://github.com
 
 You will need to install the following into your **air-gapped computer**. 
 
-Notet hat if you are using Ubuntu, you can install some of the necessary dependencies using the following command:
+Note that if you are using Ubuntu, you can install some of the necessary dependencies using the following command:
 ```
 sudo apt-get install qrencode jq eog
 ```
 
 1. `keysmith`
     - [https://github.com/dfinity/keysmith](https://github.com/dfinity/keysmith) 
-    - You will use this generate important artifatcs like `seed phrase` and `private key`
+    - You will use this generate important artifacts like `seed phrase` and `private key`
 
 2. `openssl`
     - [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)

@@ -16,7 +16,7 @@ parent: 4. Maximum Control Staking Option
 
 This section walks you through the tools necessary to bridge the air gap between your **air-gapped computer** and the **networked smartphone**.
 
-## 4.2.3 Bridge the Airgap: Send the message to the Internet Computer using a QR code
+## 4.2.3 Bridge the air gap: Send the message to the Internet Computer using a QR code
 
 Since your **air-gapped computer** is not connected to the internet, we will use a **QR app** to send the message generated in 4.2.1 to the Internet Computer. We will use `IC Transaction Scanner` which lives in a canister (and whose code is visible here: [https://github.com/ninegua/ic-qr-scanner](https://github.com/ninegua/ic-qr-scanner))
 

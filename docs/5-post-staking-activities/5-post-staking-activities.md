@@ -114,7 +114,7 @@ $ bash ./quill-qr.sh < message.json
 ```bash
 // This is just the structure, copy/pasting WILL NOT work.
 $ target/release/quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --start-dissolving
-// send message via QR codde app
+// send message via QR code app
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json
@@ -128,7 +128,7 @@ $ bash ./quill-qr.sh < message.json
 
 // 7 days later, disburse the neuron
 $ target/release/quill --pem-file private.pem neuron-manage $REWARD_NEURON_ID --disburse
-// send message via QR codde app
+// send message via QR code app
 
 // Using "message.json", create QR codes you can scan with your phone
 $ bash ./quill-qr.sh < message.json

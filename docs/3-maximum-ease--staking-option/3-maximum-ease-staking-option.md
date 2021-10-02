@@ -47,7 +47,7 @@ You have successfully staked using the NNS Frontend dapp.
 
 ### 1. How do you authenticate to Internet Identity?
 
-[Internet Identity](https://identity.ic0.app/) does **not** use passwords and usernames to log in. [Internet Identity](https://identity.ic0.app/) takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (e.g a phone, yuibkey, etc...) instead of "something you know" (e.g. a password).
+[Internet Identity](https://identity.ic0.app/) does **not** use passwords and usernames to log in. [Internet Identity](https://identity.ic0.app/) takes advantage of the Web Authentication (WebAuthn) API to provide secure cryptographic authentication. This means that you authenticate by "something you have" (e.g a phone, Yubikey, etc...) instead of "something you know" (e.g. a password).
 
 From the point of view a user, a user would use of the following methods to authenticate:
 

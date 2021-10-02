@@ -17,7 +17,7 @@ parent: 4. Maximum Control Staking Option
 
 *Note: To “stake ICP” and to “create a neuron” are the same activity so they are used interchangeably.*
 
-This section assumess you successfully installed the the QR tools on your **air-gapped computer** from 4.0.
+This section assumes you successfully installed the the QR tools on your **air-gapped computer** from 4.0.
 
 In this section, we need to "bridge the air gap." This means that we will continue to perform the sensitive operations within the **air-gapped computer**, but we will use a **networked smartphone**'s QR code scanner to send the messages from **the air-gapped computer** to the Internet Computer.
 
