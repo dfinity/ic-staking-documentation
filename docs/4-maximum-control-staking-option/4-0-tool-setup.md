@@ -21,8 +21,8 @@ The scope and intent of this document is to support as many platforms as possibl
 
 Platforms: but the ones that have been most tested are:
 * **Linux** - Very well tested
-* **OSX (Intel)** - Very well tested
-* **OSX (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861). `keysmith` and `quill` work best when built with Intel architecture.
+* **macOS (Intel)** - Very well tested
+* **macOS (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861). `keysmith` and `quill` work best when built with Intel architecture.
 * **Windows** - Not very well tested yet.
 
 If you experience any issues, please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). These docs are for everyone in the Internet Computer community.
@@ -63,7 +63,7 @@ sudo apt-get install qrencode jq eog
 
 6. Copy and paste the following bash script into a file named `quill-qr.sh`:
 
-Warning: Only tested on MacOSX and Linux.
+Warning: Only tested on macOS and Linux.
 
 ```bash
 #!/usr/bin/env bash
