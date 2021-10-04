@@ -49,7 +49,7 @@ $ mv private.pem private2.pem
 
 **1.6 [ ] Regenerate the private key in `private.pem`.**
 
-**1.7. [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.**
+**1.7 [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.**
 
 ```bash
 $ diff private.pem private2.pem
@@ -59,7 +59,9 @@ if you got no differences, then you have  successfully moved your seed phrase, d
 
 ## 2. Create neuron with dissolve delay
 
-**2.1. [ ] Create a neuron**
+**2.2 [ ] Create a ledger account number and send at least 1.001 ICP to it**
+
+**2.2 [ ] Create a neuron**
 
 a. [ ] Within air-gapped computer, craft a "create neuron" message with `quill` as in 4.2
 
@@ -67,7 +69,7 @@ b. [ ] Using a QR code, send the message to the Internet Computer as in 4.2
 
 c. [ ] Verify that the neuron was created
 
-**2.2. [ ] Add dissolve delay to the neuron**
+**2.3 [ ] Add dissolve delay to the neuron**
 
 a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill` 
 
@@ -75,7 +77,7 @@ b. [ ] Using a QR code, send the message to the Internet Computer
 
 c. [ ] Verify that the dissolve was added
 
-**2.3. [ ] Start the dissolve process**
+**2.4 [ ] Start the dissolve process**
 
 a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` 
 
@@ -83,7 +85,7 @@ b. [ ] Using a QR code, send the message to the Internet Computer
 
 c. [ ] Verify that the dissolve was added
 
-**2.4. [ ] Stop the dissolve process**
+**2.5 [ ] Stop the dissolve process**
 
 a. [ ] Within air-gapped computer, craft a "stop dissolve" message with `quill` 
 b. [ ] Using a QR code, send the message to the Internet Computer
