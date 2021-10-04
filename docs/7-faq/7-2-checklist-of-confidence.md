@@ -71,7 +71,7 @@ a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill`
 b. [ ] Using a QR code, send the message to the Internet Computer
 c. [ ] Verify that the dissolve was added
 
-**### 2.3. [ ] Start the dissolve process**
+**2.3. [ ] Start the dissolve process**
 
 a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` 
 b. [ ] Using a QR code, send the message to the Internet Computer
