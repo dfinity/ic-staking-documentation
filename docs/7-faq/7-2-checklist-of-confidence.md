@@ -29,7 +29,13 @@ $ keysmith generate -o seed.txt
 $ keysmith private-key -o private.pem
 ```
 
-**1.3 [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.**
+**1.3 [ ] Create a ledger account number**
+
+```bash
+$ keysmith account
+```
+
+**1.4 [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.**
 
 a. [ ] Store your `seed phrase` offline
 
@@ -39,17 +45,17 @@ b. [ ] Delete the `seed phrase` from your computer
 $ rm -vf seed.txt
 ```
 
-**1.4 [ ] Rename `private.pm` as `private2.p2m`.**
+**1.5 [ ] Rename `private.pm` as `private2.p2m`.**
 
 ```bash
 $ mv private.pem private2.pem
 ```
 
-**1.5 [ ] Rewrite the `seed phrase` into your computer in `seed.txt`.**
+**1.6 [ ] Rewrite the `seed phrase` into your computer in `seed.txt`.**
 
-**1.6 [ ] Regenerate the private key in `private.pem`.**
+**1.7 [ ] Regenerate the private key in `private.pem`.**
 
-**1.7 [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.**
+**1.8 [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.**
 
 ```bash
 $ diff private.pem private2.pem
@@ -59,7 +65,7 @@ if you got no differences, then you have  successfully moved your seed phrase, d
 
 ## 2. Create neuron with dissolve delay
 
-**2.2 [ ] Create a ledger account number and send at least 1.001 ICP to it**
+**2.1 [ ] Send at least 1.001 ICP to the ledger account number created in 1.3**
 
 **2.2 [ ] Create a neuron**
 
