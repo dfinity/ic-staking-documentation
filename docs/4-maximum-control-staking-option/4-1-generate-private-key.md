@@ -44,7 +44,7 @@ $ keysmith account
 > 77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da 
 ```
 
-You should write the `ledger account number` down so you can use in he next chapter in step **4.2.1.**
+You should write the `ledger account number` down or store it locally in a file so you can use in he next chapter in step **4.2.1.**. For moving forward, we will store it in a file called `account.txt`. Unlike `seed.txt` and `private.pem` the name can be anything.
 
 * * *
 ## 4.1.4 Secure your `seed phrase` properly

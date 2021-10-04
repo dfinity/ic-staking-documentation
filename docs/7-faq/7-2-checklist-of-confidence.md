@@ -29,7 +29,7 @@ $ keysmith generate -o seed.txt
 $ keysmith private-key -o private.pem
 ```
 
-**1.3 [ ] Create a ledger account number**
+**1.3 [ ] Create a ledger account number and save it in `account.txt`**
 
 ```bash
 $ keysmith account
