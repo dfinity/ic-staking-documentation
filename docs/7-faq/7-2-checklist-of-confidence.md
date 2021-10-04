@@ -13,46 +13,73 @@ If you chose to custody your own neuron, tt is very important that you become fa
 
 A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps are the intent of this checklist.
 
-## Seed phrase and private keys Setup
+## Seed phrase and private keys setup
 
 Goal: Show that you can generate the same private key from the same seed phrase
 
-1. [ ] Generate a `seed phrase` in `seed.txt`.
+### 1. [ ] Generate a `seed phrase` in `seed.txt`.
 
 ```bash
 $ keysmith generate -o seed.txt
 ```
 
-2. [ ] Generate a `private key` in `private.pem`.
+### 2. [ ] Generate a `private key` in `private.pem`.
 
 ```bash
 $ keysmith private-key -o private.pem
 ```
 
-3. [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.
+### 3. [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.
 
 a. Store your `seed phrase`
 
 b. Delete the `seed phrase`
 
 ```bash
-$ rm seed.txt
+$ rm -vf seed.txt
 ```
 
-4. [ ] Rename `private.pm` as `private2.p2m`.
+### 4. [ ] Rename `private.pm` as `private2.p2m`.
 
 ```bash
 $ mv private.pem private2.pem
 ```
 
-5. [ ] Rewrite the `seed phrase` into your computer in `seed.txt`.
+### 5. [ ] Rewrite the `seed phrase` into your computer in `seed.txt`.
 
-6. [ ] Regenerate the private key in `private.pem`.
+### 6. [ ] Regenerate the private key in `private.pem`.
 
-7. [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.
+### 7. [ ] Compare `private.pem` and `private2.pem` to to make sure they are the exact same private key.
 
 ```bash
 $ diff private.pem private2.pem
 ```
 
 if you got no differences, then you have  successfully moved your seed phrase, deleted it, stored it, and generated your private key when you needed it.
+
+## Create neuron with dissolve delay
+
+### 1. [ ] Create a neuron
+
+a. [ ] Within air-gapped computer, craft a "create neuron" message with `quill` as in 4.2
+b. [ ] Using a QR code, send the message to the Internet Computer as in 4.2
+c. [ ] Verify that the neuron was created
+
+### 2. [ ] Add dissolve delay to the neuron
+
+a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill` 
+b. [ ] Using a QR code, send the message to the Internet Computer
+c. [ ] Verify that the dissolve was added
+
+### 3. [ ] Start the dissolve process
+
+a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` 
+b. [ ] Using a QR code, send the message to the Internet Computer
+c. [ ] Verify that the dissolve was added
+
+### 4. [ ] Stop the dissolve process
+
+a. [ ] Within air-gapped computer, craft a "stop dissolve" message with `quill` 
+b. [ ] Using a QR code, send the message to the Internet Computer
+c. [ ] Verify that the dissolve was added
+

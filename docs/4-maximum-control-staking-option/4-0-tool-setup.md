@@ -22,7 +22,7 @@ The scope and intent of this document is to support as many platforms as possibl
 Platforms: but the ones that have been most tested are:
 * **Linux** - Very well tested
 * **OSX (Intel)** - Very well tested
-* **OSX (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861), but very well tested
+* **OSX (M1)** - Requires [Apple Rosetta](https://support.apple.com/en-us/HT211861). `keysmith` and `quill` work best when built with Intel architecture.
 * **Windows** - Not very well tested yet.
 
 If you experience any issues, please let us know via [issues](https://github.com/dfinity/ic-staking-documentation/issues) or make a [pull request](https://github.com/dfinity/ic-staking-documentation/pulls). These docs are for everyone in the Internet Computer community.
@@ -48,7 +48,7 @@ sudo apt-get install qrencode jq eog
 3. `quill`
    - [https://github.com/dfinity/quill](https://github.com/dfinity/quill)
     - You will use this to craft messages like "create neuron" for the Internet Computer
-    - You can install it by downloading the binary for your operating system; or by cloning and compiling the code (note that once compiled, the command to execute is `target/release/quill`) 
+    - You can install it by downloading the binary for your operating system; or by cloning and compiling the code (note that once compiled, the command to execute is `target/release/quill` from within the /quill directory you cloned)
 
 4. `qrencode`
     - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 
