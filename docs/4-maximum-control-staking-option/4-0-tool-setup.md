@@ -49,11 +49,7 @@ sudo apt-get install qrencode jq eog
    - [https://github.com/dfinity/quill](https://github.com/dfinity/quill)
     - You will use this to craft messages like "create neuron" for the Internet Computer
     - You can install it by downloading the binary for your operating system; or by cloning and compiling the code
-    - Note that once compiled, the command to execute is `target/release/quill`. Depending on your computer this command may only work if executed from from within the /quill directory so the example code snippets will have the form:
-
-    ```bash
-    /quill $ target/release/quill ...
-    ```
+    - Note that once compiled, the command to execute is `target/release/quill`.
 
 4. `qrencode`
     - [https://github.com/fukuchi/libqrencode](https://github.com/fukuchi/libqrencode) 

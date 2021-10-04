@@ -41,7 +41,7 @@ On the **air-gapped computer**:
 
 ```bash
 // This is just the structure, copy/pasting WILL NOT work. See below for working command
-/quill $ target/release/quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
+$ target/release/quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
 ```
 
 For this command, the `$NAME` is an arbitrary string, up to 8 characters, that you can use to identify your neuron for the purposes of topping up later with `quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. You can store this on your **air-gapped computer.**
@@ -54,6 +54,6 @@ On the **air-gapped computer**:
 
 ```bash
 // Create the message that tells IC "create the neuron" and save it "message.json"
-/quill $ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 1.01 > message.json
+$ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 1.01 > message.json
 ```
 
