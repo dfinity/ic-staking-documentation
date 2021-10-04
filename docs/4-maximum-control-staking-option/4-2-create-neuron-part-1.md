@@ -54,6 +54,6 @@ On the **air-gapped computer**:
 
 ```bash
 // Create the message that tells IC "create the neuron" and save it "message.json"
-target/release/quill $ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 1.01 > message.json
+/quill $ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 1.01 > message.json
 ```
 
