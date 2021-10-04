@@ -15,7 +15,7 @@ A common question is *"How can I become confident you would not mess things up?"
 
 ## 1. Seed phrase and private keys setup
 
-Goal: Show that you can generate the same private key from the same seed phrase
+Goal: Show that you can generate the same private key from the same seed phrase and that you can recover the private key.
 
 **1.1 [ ] Generate a `seed phrase` in `seed.txt`.**
 
@@ -31,9 +31,9 @@ $ keysmith private-key -o private.pem
 
 **1.3 [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.**
 
-a. Store your `seed phrase`
+a. [ ] Store your `seed phrase` offline
 
-b. Delete the `seed phrase`
+b. [ ] Delete the `seed phrase` from your computer
 
 ```bash
 $ rm -vf seed.txt
@@ -62,19 +62,25 @@ if you got no differences, then you have  successfully moved your seed phrase, d
 **2.1. [ ] Create a neuron**
 
 a. [ ] Within air-gapped computer, craft a "create neuron" message with `quill` as in 4.2
+
 b. [ ] Using a QR code, send the message to the Internet Computer as in 4.2
+
 c. [ ] Verify that the neuron was created
 
 **2.2. [ ] Add dissolve delay to the neuron**
 
 a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill` 
+
 b. [ ] Using a QR code, send the message to the Internet Computer
+
 c. [ ] Verify that the dissolve was added
 
 **2.3. [ ] Start the dissolve process**
 
 a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` 
+
 b. [ ] Using a QR code, send the message to the Internet Computer
+
 c. [ ] Verify that the dissolve was added
 
 **2.4. [ ] Stop the dissolve process**
