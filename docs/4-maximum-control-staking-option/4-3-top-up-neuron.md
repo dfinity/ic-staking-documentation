@@ -24,7 +24,7 @@ Notes:
 //Craft message to send 42 ICP to the neuron named "neuron3". Store in "message.json"
 $ target/release/quill --pem-file private.pem neuron-stake --name neuron3 --amount 42.20 > message.json
 
-// Using "message.json", create QR codes you can scan with your phone
+// Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json
 ```
 

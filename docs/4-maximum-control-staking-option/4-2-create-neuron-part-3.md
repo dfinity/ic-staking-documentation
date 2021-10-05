@@ -46,7 +46,7 @@ In our example, we will start a 1-year dissolve, so we will use `quill` to craft
 // Add the dissolve delay
 $ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-dissolve-delay-seconds 31536000 > message.json
 
-// Using "message.json", create QR codes you can scan with your phone
+// Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json
 ```
 

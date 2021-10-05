@@ -27,7 +27,7 @@ Command with example neuron:
 ```bash
 $ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --start-dissolving
 
-// Using "message.json", create QR codes you can scan with your phone
+// Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json 
 ```
 
@@ -47,7 +47,7 @@ Command with example variables:
 ```bash
 $ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --stop-dissolving
 
-// Using "message.json", create QR codes you can scan with your phone
+// Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json 
 ```
 
