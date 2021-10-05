@@ -3,6 +3,8 @@ layout: default
 title: 4.1 Generate private key
 parent: 4. Maximum Control Staking Option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 * * *
 # 4.1 Generate a **private key**

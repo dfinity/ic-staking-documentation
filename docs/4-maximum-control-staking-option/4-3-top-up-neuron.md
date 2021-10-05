@@ -3,6 +3,8 @@ layout: default
 title: 4.3 Add more ICP to the Neuron
 parent: 4. Maximum Control Staking Option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 * * *
 ## 4.3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)

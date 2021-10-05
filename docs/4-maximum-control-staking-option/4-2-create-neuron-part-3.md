@@ -3,6 +3,8 @@ layout: default
 title: 4.2 Create neuron with dissolve delay (Part 3)
 parent: 4. Maximum Control Staking Option
 ---
+Warning: documentation in beta
+{: .label .label-red }
 
 {: .no_toc .text-delta }
 
