@@ -71,7 +71,7 @@ Goal: Show that you can add, start, stop dissolve delays.
 
 **2.2 [ ] Create a neuron**
 
-a. [ ] Within air-gapped computer, craft a "create neuron" message with `quill` as in 4.2
+a. [ ] Within air-gapped computer, craft a "create neuron" message with `quill` as in 4.2 part 2
 
 b. [ ] Using a QR code, send the message to the Internet Computer as in 4.2
 
@@ -79,7 +79,7 @@ c. [ ] Verify that the neuron was created
 
 **2.3 [ ] Add dissolve delay to the neuron**
 
-a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill` 
+a. [ ] Within air-gapped computer, craft a "add dissolve" message with `quill` as in 4.2 part 3
 
 b. [ ] Using a QR code, send the message to the Internet Computer
 
@@ -87,7 +87,7 @@ c. [ ] Verify that the dissolve was added
 
 **2.4 [ ] Start the dissolve process**
 
-a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` 
+a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill` as in 5.3
 
 b. [ ] Using a QR code, send the message to the Internet Computer
 
@@ -95,7 +95,7 @@ c. [ ] Verify that the neuron started to dissolve
 
 **2.5 [ ] Stop the dissolve process**
 
-a. [ ] Within air-gapped computer, craft a "stop dissolve" message with `quill` 
+a. [ ] Within air-gapped computer, craft a "stop dissolve" message with `quill` as in 5.3
 
 b. [ ] Using a QR code, send the message to the Internet Computer
 

@@ -33,6 +33,8 @@ $ bash ./quill-qr.sh < message.json
 
 ![image](../assets/images/qr-code-scan-2.png)
 
+Note: this command typically requires only one QR code being sent.
+
 * * *
 ### 5.3.2 Command to STOP the dissolve process.
 
@@ -50,5 +52,7 @@ $ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json 
 ```
+
+Note: this command typically requires only one QR code being sent.
 
 ![image](../assets/images/qr-code-scan-2.png)

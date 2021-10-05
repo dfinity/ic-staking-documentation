@@ -48,7 +48,9 @@ $ bash ./quill-qr.sh < message.json
 
 The QR code will open [`IC Transaction Scanner`](https://p5deo-6aaaa-aaaab-aaaxq-cai.raw.ic0.app/) with the data you scanned from the QR code embedded in. Press `Send` the send QR-code generated message to the Internet Computer**. 
 <img src="../assets/images/qr-code-scan-from-phone.jpg" alt="drawing" width="300"/>
+
 <img src="../assets/images/ic-transaction-scan.jpg" alt="drawing" width="300"/>
+
 <img src="../assets/images/ic-transaction-scan-send.jpg" alt="drawing" width="300"/>
 
 * * *

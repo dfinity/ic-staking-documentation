@@ -18,7 +18,7 @@ Warning: documentation in beta
 Now that you have a neuron, this section adds a dissolve delay to that neuron. Your ICP are not staked until the neuron has a dissolve delay.
 
 * * *
-## 4.2.5 Send a message to the neuron to “start dissolve delay”
+## 4.2.5 Send a message to the neuron to add dissolve delay
 
 To increase the dissolve delay of a neuron whose id is `$NEURON_ID`, we will use a command of the form:
 
