@@ -89,7 +89,7 @@ a. [ ] Within air-gapped computer, craft a "start dissolve" message with `quill`
 
 b. [ ] Using a QR code, send the message to the Internet Computer
 
-c. [ ] Verify that the dissolve was added
+c. [ ] Verify that the neuron started to dissolve
 
 **2.5 [ ] Stop the dissolve process**
 
@@ -97,5 +97,5 @@ a. [ ] Within air-gapped computer, craft a "stop dissolve" message with `quill`
 
 b. [ ] Using a QR code, send the message to the Internet Computer
 
-c. [ ] Verify that the dissolve was added
+c. [ ] Verify that the dissolve stopped
 
