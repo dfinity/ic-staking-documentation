@@ -9,9 +9,9 @@ Warning: documentation in beta
 
 # 7.2 Checklist for becoming confident with your tools
 
-If you chose to custody your own neuron, tt is very important that you become familiar and confident with the self-custody staking process, because you are in full control of your ICP.
+If you choose to custody your own neuron, it is very important that you become familiar and confident with the self-custody staking process, because you are in full control of your ICP.
 
-A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps are the intent of this checklist.
+A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps is the intent of this checklist.
 
 ## 1. Seed phrase and private keys setup
 
@@ -61,7 +61,7 @@ $ mv private.pem private2.pem
 $ diff private.pem private2.pem
 ```
 
-if you got no differences, then you have  successfully moved your seed phrase, deleted it, stored it, and generated your private key when you needed it.
+If you got no differences, then you have  successfully moved your seed phrase, deleted it, stored it, and generated your private key when you needed it.
 
 ## 2. Create neuron with dissolve delay
 
