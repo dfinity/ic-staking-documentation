@@ -22,13 +22,13 @@ Use that principal id with `quill` to establish the [NNS frontend dapp](https://
 	
 Structure of command:
 ```bash
-$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key $PRINCIPAL
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --add-hot-key "$PRINCIPAL"
 ```
 
 Command with example variables: 
 ```bash
 // Add the hot key from the NNS frontend dapp to your self-custodied neuron
-$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --add-hot-key 2xt3l-tqk2i-fpygm-lseru-pvgek-t67vb-tu3ap-k0mnu-dr4hl-z3kpn-o2e > message.json
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --add-hot-key "2xt3l-tqk2i-fpygm-lseru-pvgek-t67vb-tu3ap-k0mnu-dr4hl-z3kpn-o2e" > message.json
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json
