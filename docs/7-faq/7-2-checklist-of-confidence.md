@@ -109,6 +109,8 @@ Goal: Add the NNS Fronted dapp as a "hot key" to your neuron so you can view it
 
 3.1 [ ] Get the principal from the NNS frontend dapp
 
-3.2 [ ] Add the principal as a hot key to the neuron
+3.2 [ ] Within air-gapped computer, craft a "add hot key" message with `quill` 
 
-3.3 [ ] Confirm you can view the neuron in the NNS Frontend dapp
+3.3 [ ] Using a QR code, send the message to the Internet Computer
+
+3.4 [ ] Confirm you can view the neuron in the NNS Frontend dapp    
