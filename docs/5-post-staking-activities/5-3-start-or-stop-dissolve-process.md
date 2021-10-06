@@ -42,12 +42,12 @@ If you determine after some time that you wish to stop dissolving your neuron to
 
 Structure of command:
 ```bash
-$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --stop-dissolving 
 ```
 
 Command with example variables:
 ```bash
-$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --stop-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --stop-dissolving > message.json
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json 

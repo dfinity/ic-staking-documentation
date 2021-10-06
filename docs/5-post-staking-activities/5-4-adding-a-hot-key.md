@@ -35,5 +35,6 @@ $ bash ./quill-qr.sh < message.json
 ```
 ![image](../assets/images/qr-code-scan-2.png)
 
+Note: this command typically requires only one QR code being sent.
 
 Now refresh the [NNS frontend dapp](https://nns.ic0.app/) in your browser, and you should see your Neuron displayed. You may change the followees and topics for the neuron now in the NNS App interface, but will not be able to dissolve, disburse or spawn.
