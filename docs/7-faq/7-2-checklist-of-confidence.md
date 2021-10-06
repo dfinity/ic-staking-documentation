@@ -45,7 +45,7 @@ b. [ ] Delete the `seed phrase` from your computer
 $ rm -vf seed.txt
 ```
 
-**1.5 [ ] Rename `private.pm` as `private2.p2m`.**
+**1.5 [ ] Rename `private.pm` as `private2.pem`.**
 
 ```bash
 $ mv private.pem private2.pem
