@@ -25,7 +25,7 @@ $ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --start-d
 
 Command with example neuron:
 ```bash
-$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --start-dissolving
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --start-dissolving > message.json
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json 
