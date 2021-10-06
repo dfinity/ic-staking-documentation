@@ -33,10 +33,10 @@ The following table gives typical values for `$SECONDS`:
 
 | Length | number |
 | :------------- | :------------- |
-| Six months | 15768000 (60 seconds * 60 minutes * 24 hours * 182.5 days) |
-| One year | 31536000 (60 seconds * 60 minutes * 24 hours * 365 days) |
-| Four years | 126144000 (60 seconds * 60 minutes * 24 hours * 365 days * 4 years)  |
-| Eight years | 252288000 (60 seconds * 60 minutes * 24 hours * 365 days * 8 years)  |
+| Six months | 15778800 (60 seconds * 60 minutes * 24 hours * 182.625 days) |
+| One year | 31557600 (60 seconds * 60 minutes * 24 hours * 365.25 days) |
+| Four years | 126230400 (60 seconds * 60 minutes * 24 hours * 365.25 days * 4 years)  |
+| Eight years | 252460800 (60 seconds * 60 minutes * 24 hours * 365.25 days * 8 years)  |
 
 In our example, we will start a 1-year dissolve, so we will use `quill` to craft the following command:
 
