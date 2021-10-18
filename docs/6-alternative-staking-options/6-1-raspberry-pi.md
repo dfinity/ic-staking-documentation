@@ -35,7 +35,7 @@ Here is a list of hardware that is needed for the air gap setup:
 [ic-repl](https://github.com/chenyan2002/ic-repl) is a generic tool for communicating with canisters with Candid. It has an offline mode, where canister calls become signed messages embedded in the QR codes. You can then use your smartphone’s camera to send the message to the IC.
 
 Compared with quill, there are several advantages:
-* `ic-repl` is an interpreter for Candid, which means the binary rarely needs to be upgraded. The fewer we upgrade, the safer the air-gap machine.
+* `ic-repl` is an interpreter for Candid, which means the binary rarely needs to be upgraded. The fewer times we upgrade, the safer the air-gap machine.
 * Every command in quill is a canister call. If we want to add a new command or change an existing command’s arguments, we need a new binary release. In `ic-repl`, all canister calls are written in a textual script, which can be extended without new binary release. It also adds more transparency, so that users know exactly what calls are executed for each command.
 * Quill outputs the json message, which can be converted to QR code with external tools. `ic-repl` generates QR code natively without relying on external tools.
 

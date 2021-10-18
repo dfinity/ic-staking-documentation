@@ -16,11 +16,11 @@ If you lose your private key you can recreate it so long as you still have your 
 
 Retrieve your seed phrase from where you previously stored it and store it on your **air-gapped computer** in a file called `seed.txt`.
 
-From a cryptography point of view, you technically only need the first four characters of every word in your seed phrases. That is why storage solutions like the [Billfodl](https://privacypros.io/products/the-billfodl/) only store first four characters of every word.
+In theory, you only need the first four characters of every word in your seed phrases since the remaining characters are ignored by the underlying key generation algorithm. That is why storage solutions like the [Billfodl](https://privacypros.io/products/the-billfodl/) only store first four characters of every word.
 
 To give a concrete example, suppose your `seed phrase` from `keysmith` was originally `wage roast present easy mobile olympic panda double ready unveil knock stage`. When you store it in a [Billfodl](https://privacypros.io/products/the-billfodl/), you will actually only store the first four characters of each word like this: `wage roas pres easy mobi olym pand doub read unve knoc stag`.
 
-In short, from a cryptography POV,
+In short, in theory,
 
 `wage roast present easy mobile olympic panda double ready unveil knock stage`
 
@@ -30,7 +30,7 @@ and
 
 will generate the exact same `private key`.
 
-However, `keysmith` does not quite know that (at the time of this writing), so when using `keysmith` to recreate your `private key` you need to recreate the original `wage roast present easy mobile olympic panda double ready unveil knock stage` from the stored `wage roas pres easy mobi olym pand doub read unve knoc stag`. You can do that by using using this list of [BIP-39 words](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt).
+However, `keysmith` does not quite know that you only need the first four letters in each word (at the time of this writing), so when using `keysmith` to recreate your `private key` you need to recreate the original `wage roast present easy mobile olympic panda double ready unveil knock stage` from the stored `wage roas pres easy mobi olym pand doub read unve knoc stag`. You can do that by using using this list of [BIP-39 words](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt).
 
 
 ## 7.1.2 Execute commands
