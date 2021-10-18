@@ -16,7 +16,7 @@ Once you are confident your neuron is properly created, to “top up” an exist
 Notes:
 
 - It should print back to you the same Neuron ID as when you first staked it.
-- In our example, we will send the neuron which we called “neuron2” the amount of 42.20 ICP.
+- In our example, we will send the neuron which we called “neuron3” the amount of 42.20 ICP.
 
 **On the air-gapped computer**
 

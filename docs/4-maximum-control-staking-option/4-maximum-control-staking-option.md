@@ -19,7 +19,7 @@ Warning: documentation in beta
 * * *
 # Maximum control option: How to stake
 
-This chapter is for people who want to have as much control of their ICP as possible by custodying their own `seed phrase` and do not mind more technical hurdles to have maximum control. 
+This chapter is for people who want to have as much control of their ICP as possible by custodying their own `seed phrase` and accept technical hurdles to have maximum security. 
 
 * * *
 ## The three steps to stake
@@ -29,6 +29,8 @@ As a reminder, there are three basic steps (whose implementation depend on the t
 **1. Generate a private key** 
 
 *This step would only happen once per cold wallet. For most people, this means you will do this step only once.*
+
+*We will present a two-step approach to generating the private key. First, you use a tool to generate a seed phrase. Then you use the seed phrase to generate a private key.
 
 **2. Create a neuron with a dissolve delay** 
 
@@ -65,7 +67,7 @@ If someone gets these, they may take your ICP.
 * `neuron account`
 
 If you lose these, you can regenerate them from your `seed phrase`.
-If someone gets these, they can see how ICP you have or your transactions.
+If someone gets these, they can see how much ICP you have or your transactions.
 Knowledge of these artifacts does not give you control over the ICP.
 
 * * *
@@ -73,17 +75,17 @@ Knowledge of these artifacts does not give you control over the ICP.
 
 ### 1. Where to store your `seed phrase`?
 
-
 Do **NOT** store your seed phrase electronically. We recommend you store in any of the following options:
 
 a. Paper
 
-b. Steel wallets like [Billfodl](https://privacypros.io/products/the-billfodl/)
+b. Steel wallet like [Billfodl](https://privacypros.io/products/the-billfodl/)
 
 ![image](../assets/images/billfodl.png)
 
-### 2. Once you have your `seed phrase`, what **tools** can you stake with?
+These solutions protect you against key loss if e.g. your air-gapped computer breaks. If you are also concerned about the risk of theft, you may take additional precautions such as keeping your seed phrase in a safe or bank vault, or use [secret sharing](https://en.wikipedia.org/wiki/Secret_sharing) to split your seed phrase into multiple shares that can be stored in different locations.
 
+### 2. Once you have your `seed phrase`, what **tools** can you stake with?
 
 Right now, you option for maximum control is:
 

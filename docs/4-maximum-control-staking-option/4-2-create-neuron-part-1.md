@@ -46,7 +46,7 @@ On the **air-gapped computer**:
 $ target/release/quill --pem-file private.pem neuron-stake --name $NAME --amount $AMOUNT
 ```
 
-For this command, the `$NAME` is an arbitrary string, up to 8 characters, that you can use to identify your neuron for the purposes of topping up later with `quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. You can store this on your **air-gapped computer.**
+For this command, the `$NAME` is an arbitrary string, up to 8 characters, that you can use to identify your neuron for the purposes of topping up later with `quill`. For example, if you intend to have only one eight-year neuron, you could use the name `8yneuron`. This string has no meaning otherwise, and will not be visible anywhere else. You can store the string on your **air-gapped computer**. It can in theory be recovered if lost but there is currently no tooling for recovery, so we recommend you also write the string down.
 
 The `$AMOUNT` should not include the transaction fee, but remember that it will still be deducted from your account, so if you wish to stake everything you've got, stake your balance minus the 0.0001 ICP fee.
 
