@@ -14,7 +14,7 @@ To stake, these steps will not change, but the tools, commands, or methods you u
 **To stake, there are three steps:**
 
 1. Generate a **private key** to control your neuron
-2. Create a **neuron** with a **dissolve delay**
+2. Create a **neuron** with a **dissolve delay** and at least 1 locked ICP
 3. *Optional*: Add more ICP to the Neuron (“top up the neuron”)
 
 **Once you stake, you can do any of the following four activities:**
