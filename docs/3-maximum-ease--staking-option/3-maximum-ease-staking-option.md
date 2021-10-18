@@ -27,18 +27,19 @@ In **networked smartphone** or **networked computer**, do the following:
 
 1. Log into [NNS Frontend Dapp](https://nns.ic0.app/)
     
-    a. Make an [Internet Identity](https://identity.ic0.app/) if you not already have one
-    b. Highly recommend you add multiple devices
-
-2. Within NNS Frontend dapp, navigate to the `ICP` tab. Send ICP to an account.
+    a. Make an [Internet Identity](https://identity.ic0.app/) if you do not already have one
     
-    a. Account should look something like this `723cd441238da744a097c3a20f8f4050d8355afb46fe12a1428a63996c37d918`
+    b. We recommend you add multiple devices or a recovery method to avoid accidental loss of access
 
-3. Navigate to the `neuron` tab
+2. Within the NNS Frontend dapp. 
+    
+    a. First you need to have ICP on your account. Navigate to the `ICP` tab to see your account address, it should look something like this `723cd441238da744a097c3a20f8f4050d8355afb46fe12a1428a63996c37d918` (your address will be a different number). When you transfer ICP to this address, for instance by withdrawing ICP on an exchange where you have bought ICP, it will appear in the NNS Dapp.
 
-4. Click `stake neuron` button and follow instructions.
+    b. Once you have ICP on your account, navigate to the `neuron` tab
 
-5. That's it!
+c. Click `stake neuron` button and follow the instructions.
+
+3. That's it!
 
 You have successfully staked using the NNS Frontend dapp.
 
@@ -79,9 +80,9 @@ To add more devices to an existing identity anchor, [please see the guide here]
 
 ## Trade-offs and risks
 
-If you use this combination, you are accepting the following trade-offs:
+If you use the NNS Dapp, you are accepting the following trade-offs and risks:
 
-* If you only have 1 device tied to your [Internet Identity](https://identity.ic0.app/), and you lose that device, you lose all access. You should add multiple devices in case one of them malfunctions. For example, if you have only one iPhone attached as a device to your Internet Identity, you are risking your ICP on that iPhone's Face ID always recognizing you. If it cannot, then you lose access to your ICP. Similarly, if you lose your phone, you would lose your ICP.
-* Not all devices and browsers support WebAuthn, so this option is sometimes not available.
-* You are accepting the risk that the [community-vetted NNS Frontend dapp](https://github.com/dfinity/nns-dapp) is not compromised
-* You are accepting the risk that the [community-vetted Internet Identity canister](https://medium.com/dfinity/verifying-the-internet-identity-code-a-walkthrough-c1dd7a53f883) is not compromised
+* Most, but not all devices and browsers support WebAuthn, so the NNS Dapp can sometimes not be used.
+* If you only have 1 device tied to your [Internet Identity](https://identity.ic0.app/), and you lose that device, you lose all access. For example, if you have only one iPhone attached as a device to your Internet Identity, you are betting your ICP on it always working. If for instance you only log in via Face ID and the phone no longer recognizes you, you lose access to all your ICP. Similarly, if you misplace your phone or it is stolen, you lose your ICP. You can reduce this risk by adding multiple devices or a recovery mechanism.
+* If one of your devices is compromised, your ICP may be stolen. When ICP is staked in a neuron it cannot be immediately transferred but the attacker may steal your rewards and the attacker may set your neuron to dissolve in order to steal the locked ICP. 
+* If the Internet Identity or the NNS Dapp are compromised you may lose your ICP. By using them, you are implicitly trusting that the [community-vetted NNS Frontend dapp](https://github.com/dfinity/nns-dapp) is not compromised and that the [community-vetted Internet Identity canister](https://medium.com/dfinity/verifying-the-internet-identity-code-a-walkthrough-c1dd7a53f883) is not compromised.
