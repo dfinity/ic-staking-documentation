@@ -21,12 +21,15 @@ You should use the [NNS frontend dapp](https://nns.ic0.app/).
 
 Currently, voting is not possible with `quill`. 
 
-- To vote you will have to do the following:
+- To vote you can do the following:
     1. Go to the NNS frontend dapp: [https://nns.ic0.app/](https://nns.ic0.app/)
-        a. This may require you to get an [Internet Identity](https://identity.ic0.app/)
-    2. Get your NNS frontend dapp principal for your identity anchor
-    3. Add this principal as a Hot Key with `quill` to your neuron
+
+a. This may require you to get an [Internet Identity](https://identity.ic0.app/)
+
+2. Under the `neuron` tab, you can find your principal id
+
+3. Add this principal id as a Hot Key with `quill` to your neuron
 
         If you choose this, see section "5.4 Adding a hot key."
 
-    4. You can vote with that II via the NNS frontend dapp.
+    4. You can vote with your Internet Identity via the NNS frontend dapp.

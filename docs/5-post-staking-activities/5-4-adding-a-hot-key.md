@@ -14,7 +14,7 @@ a. If you chose the **maximum ease staking option**...   you do not need this, y
 
 b. If you chose the **maximum control staking option**...
 
-Log in to the [NNS frontend dapp](https://nns.ic0.app/) and visit the Neurons tab, it will display a Principal Id value at the top of that tab. 
+Log in to the [NNS frontend dapp](https://nns.ic0.app/) and visit the Neurons tab, it will display a principal id.
 
 ![image](../assets/images/nns-frontend-dapp-neurons.png)
 
