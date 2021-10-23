@@ -58,9 +58,7 @@ The QR code will open [`IC Transaction Scanner`](https://p5deo-6aaaa-aaaab-aaaxq
 
 On your **air-gapped computer** terminal, press ENTER to get the next QR code to scan, repeat step 4.2.3b until there are no more.
 
-🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
-
-You will get a response on  **`IC Transaction Scanner`** that confirms the neuron was successfully created. A `neuron id` will come back to you as a response that looks like this:
+After sending the message from IC Transaction scanner, do not close your browser window. Wait to get a response on  IC Transaction Scanner that confirms the neuron was successfully created. A `neuron id` will come back to you as a response on the browser that looks like this:
 
 ```jsx
 (
