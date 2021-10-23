@@ -25,7 +25,7 @@ Once you've staked your ICP and created a neuron, the typical sequence of comman
 3. Wait 7 Days
 4. Disburse the `neuron id` for the rewards. This gives you access to the ICP inside by placing it inside the `ledger account number` that created the original main neuron.
 
-### 5.2.3 Spawn rewards” from your neuron
+### 5.2.3 Spawn rewards from your neuron
 
 Structure of command:
 ```bash
@@ -34,7 +34,7 @@ $ target/release/quill --pem-file private.pem neuron-manage $NEURON_ID --spawn >
 
 Command with example variables:
 ```bash
-$ target/release/quill ---pem-file private.pem neuron-manage 5241875388871980017 --spawn > message.json
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --spawn > message.json
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json
@@ -61,6 +61,7 @@ s```
 ```bash
 // This is just the structure, copy/pasting WILL NOT work.
 $ target/release/quill --pem-file private.pem neuron-manage 51111111199999999999 --start-dissolving > message.json
+
 // send message via QR code app
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
