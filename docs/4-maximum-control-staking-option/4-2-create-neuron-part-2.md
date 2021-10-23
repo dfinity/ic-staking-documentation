@@ -60,7 +60,7 @@ On your **air-gapped computer** terminal, press ENTER to get the next QR code to
 
 🎉🎉 **Success**! ***Neuron created!*** 🎉🎉
 
-You will get a response on  **`IC Transaction Scanner`** that confirms the neuron was successfully created. ****You will get a `neuron id`. A `neuron id` will look come back to you as a response that looks like this:
+You will get a response on  **`IC Transaction Scanner`** that confirms the neuron was successfully created. A `neuron id` will come back to you as a response that looks like this:
 
 ```jsx
 (
@@ -91,5 +91,5 @@ In addition to the artifacts in [previous section](../docs/4-maximum-control-sta
 
 | Artifact | Example | Security| Final outcome| Storage |
 | ------------- | ------------- | | ------------- | | ------------- | | ------------- |
-| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.2. | to remain on air-gapped computer |
-| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.3. | to remain on air-gapped computer |
+| `neuron id` | `5241875388871980017`| • If someone has this, they can see your balance.  <br /> • If you lose this, you can reconstruct it. | • You generated this in 4.2.2. |  • To remain on air-gapped computer <br />  • You may use it to check your balance on a networked device |
+| `neuron name` | `neuron3` | • If someone has this, it gives them nothing.<br /> • If you lose this, you can get it back. | • You generated this in 4.2.3. | • To remain on air-gapped computer <br />  • You may write it down for easy recovery|

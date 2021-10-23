@@ -38,13 +38,15 @@ The following table gives typical values for `$SECONDS`:
 | Four years | 126230400 (60 seconds * 60 minutes * 24 hours * 365.25 days * 4 years)  |
 | Eight years | 252460800 (60 seconds * 60 minutes * 24 hours * 365.25 days * 8 years)  |
 
+If you specify a dissolve delay longer than 8 years, it will be rounded down to 8 years.
+
 In our example, we will start a 1-year dissolve, so we will use `quill` to craft the following command:
 
 **On the air-gapped computer**
 
 ```bash
 // Add the dissolve delay
-$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-dissolve-delay-seconds 31536000 > message.json
+$ target/release/quill --pem-file private.pem neuron-manage 5241875388871980017 --additional-dissolve-delay-seconds 31557600 > message.json
 
 // Using the bash script, create a QR code from the "message.json" file created by quill with your message
 $ bash ./quill-qr.sh < message.json

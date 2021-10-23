@@ -11,7 +11,7 @@ Warning: documentation in beta
 
 If you choose to custody your own neuron, it is very important that you become familiar and confident with the self-custody staking process, because you are in full control of your ICP.
 
-A common question is *"How can I become confident you would not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps is the intent of this checklist.
+A common question is *"How can I become confident I will not mess things up?"* so this section has a simple checklist for testing and convince yourself that you both understand and installed everything correctly. If any step does not work or make sense to you, then you properly identified a gap in your tools or knowledge. That is ok! Identifying those gaps is the intent of this checklist.
 
 ## 1. Seed phrase and private keys setup
 
@@ -35,7 +35,7 @@ $ keysmith private-key -o private.pem
 $ keysmith account
 ```
 
-**1.4 [ ] Store the `seed phrase` in 4-character words and delete `seed.txt` from your computer.**
+**1.4 [ ] Store the `seed phrase` and delete `seed.txt` from your computer.**
 
 a. [ ] Store your `seed phrase` offline
 
@@ -61,7 +61,7 @@ $ mv private.pem private2.pem
 $ diff private.pem private2.pem
 ```
 
-If you got no differences, then you have  successfully moved your seed phrase, deleted it, stored it, and generated your private key when you needed it.
+If you got no differences, then you have successfully deleted your seed phrase, restored it from paper, and used it to regenerate your private key.
 
 ## 2. Create neuron with dissolve delay
 
