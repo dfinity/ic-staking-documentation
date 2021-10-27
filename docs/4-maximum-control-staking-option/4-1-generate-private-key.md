@@ -59,17 +59,15 @@ To properly store your `seed phrase` see [where to store your seed phrase](../do
 ***NOTE: Do not go to step 4.1.5 until you properly store it.***
 
 * * *
-## 4.1.5 Remove your `seed phrase` from your air-gapped computer
+## 4.1.5 Keeping data on the air-gapped computer secret
 
-Now that the `seed phrase` is properly stored. You should delete it from your computer before moving forward so no one can use it to recreate your private key.  
+Your air-gapped device should encrypt data and you must have a strong password. If this is not the case, an attacker who steals the device may get your private key. During occasional non-air-gap situations (which you should avoid if at all possible), e.g., you want to update one of the tools on the computer, you can delete the seed phrase and private key first, then after having re-entered air-gap mode retype the seed-phrase and recreate the private key. If you delete the seed phrase or the private key, be aware that default file removal often just removes the reference to the file on the computer without deleting the data. On MacOS you can use the '-P' flag to indicate both the file reference and the file data should be deleted and on Linux the 'shred' command can be used.
 
-Remove it with the following command:
-
-On the **air-gapped computer**:
+On an ***air-gapped computer** with MacOS you can for instance delete the seed phrase file and the seed phrase itself with the following command:
 
 ```bash
-$ rm -vf seed.txt
-```
+$ rm -Pvf seed.txt
+``` 
 
 * * *
 ## 4.1.6 Outcome
@@ -80,8 +78,7 @@ In this section, we did a few things, so let’s recap what we did and where we 
 
 | Artifact | Example1 | Security| Final outcome| Storage |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You must store it in a safe and secure place in order to be able to regenerate your private key | • You created this via `keysmith` in this section in 4.1.1  <br />• You will have properly stored in 4.1.4 <br />• You deleted this from your computer in 4.1.5| on paper or [Billfodl](https://privacypros.io/products/the-billfodl/), possibly kept in a safe |
+| `seed phrase` | `stove reject elder top dentist car suit license grid uncle ape wash`| • If someone has this, they can take your tokens. <br /> • If you lose it, you can lose access to your ICP. <br /> • You must store it in a safe and secure place in order to be able to regenerate your private key | • You created this via `keysmith` in this section in 4.1.1  <br />• You will have created and properly stored a backup in 4.1.4 | on paper or [Billfodl](https://privacypros.io/products/the-billfodl/), possibly kept in a safe |
 | `private key` | ```-----BEGIN EC PARAMETERS----- ``` (and continues...) | • If someone has this, they can take your tokens. <br /> • If you lose it, you can recreate from seed phrase <br /> | • You created this via `keysmith` in this section in 4.1.2. | to remain on air-gapped computer |
 | `ledger account number` | `77b5eb9a465f4ce6f4da494ee2bfedeefe0b52d106e0272556c1ad991f99e3da`| • If someone has this, they can view your token balance. <br /> • If you lose it, you can do step 4.1.3 to get it back with your private key. | • You generate this in 4.1.3. This can be stored anywhere. | wherever you like |
-
 
