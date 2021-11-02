@@ -61,7 +61,9 @@ To properly store your `seed phrase` see [where to store your seed phrase](../do
 * * *
 ## 4.1.5 Keeping data on the air-gapped computer secret
 
-Your air-gapped device should encrypt data and you must have a strong password. If this is not the case, an attacker who steals the device may get your private key. During occasional non-air-gap situations (which you should avoid if at all possible), e.g., you want to update one of the tools on the computer, you can delete the seed phrase and private key first, then after having re-entered air-gap mode retype the seed-phrase and recreate the private key. If you delete the seed phrase or the private key, be aware that default file removal often just removes the reference to the file on the computer without deleting the data. On MacOS you can use the '-P' flag to indicate both the file reference and the file data should be deleted and on Linux the 'shred' command can be used.
+You should encrypt your seed phrase and private key on the air-gapped computer. Otherwise an attacker who accesses or steals your device may get your private key. You can do this by e.g. encrypting seed phrase and private key files using password-based encryption or by using a computer that has disc encryption.
+
+During occasional non-air-gap situations (which you should avoid if possible), e.g., you want to update one of the tools on the computer, you can delete the seed phrase and private key first, then after having re-entered air-gap mode retype the seed-phrase and recreate the private key. If you delete the seed phrase or the private key, be aware that default file removal often just removes the reference to the file on the computer without deleting the data. On MacOS you can use the '-P' flag to indicate both the file reference and the file data should be deleted and on Linux the 'shred' command can be used.
 
 On an ***air-gapped computer** with MacOS you can for instance delete the seed phrase file and the seed phrase itself with the following command:
 
