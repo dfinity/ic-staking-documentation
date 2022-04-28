@@ -1,10 +1,10 @@
 # NOTE: This repo is deprecated and out of date ⛔️ . Please use: [Staking documentation on the IC Wiki](https://wiki.internetcomputer.org/wiki/Tutorials_for_acquiring,_managing,_and_staking_ICP)
 
-~~## IC staking with self-custody
+~~## IC staking with self-custody~~
 
-~~This is a GitHub page for creating documentation for easy self-custody staking within the Internet Computer. This is intended to be a community-driven set of documents.
+~~This is a GitHub page for creating documentation for easy self-custody staking within the Internet Computer. This is intended to be a community-driven set of documents.~~
 
-~~You can see the GitHub page here: https://dfinity.github.io/ic-staking-documentation/
+~~You can see the GitHub page here: https://dfinity.github.io/ic-staking-documentation/~~
 
 
 * * *
